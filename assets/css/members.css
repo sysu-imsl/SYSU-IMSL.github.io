@@ -180,7 +180,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
-		font-family: "Roboto Slab", serif;
+		/* font-family: "Roboto Slab", serif; */
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -3461,7 +3461,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		color: #3d4449;
-		font-family: "Roboto Slab", serif;
+		/* font-family: "Roboto Slab", serif; */
 		font-family: 400;
 		letter-spacing: 0.075em;
 		list-style: none;
