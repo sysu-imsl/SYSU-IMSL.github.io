@@ -2263,6 +2263,19 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+	ul.iconstext {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+		text-align: center;
+	}
+
+		ul.iconstext li {
+			display: inline-block;
+			padding: 0 1em 0 0;
+			font-size: 1.15em;
+		}
+
 /* Contact */
 
 	ul.contact {
