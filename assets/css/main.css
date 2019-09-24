@@ -2415,6 +2415,11 @@ input, select, textarea {
 			padding: 0.75em 0.75em;
 		}
 
+            table td.tdp {
+                vertical-align: top;
+			    padding-top: 1.75em;
+            }
+
 		table th {
 			color: #3d4449;
 			background-color: rgba(230, 235, 237, 0.25);
