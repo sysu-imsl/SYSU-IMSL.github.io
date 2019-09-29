@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef1a8bd-ddf1-4a66-8280-5810cbf08b64" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_attack.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_attack_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack_en.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="downloads.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/downloads.html">
+      <file leaf-file-name="projects_attack.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects_attack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_attack_en.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects_attack_en.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -113,14 +123,14 @@
         <option value="$PROJECT_DIR$/projects_3Dshape_en.html" />
         <option value="$PROJECT_DIR$/projects_clothes_en.html" />
         <option value="$PROJECT_DIR$/projects_video.html" />
-        <option value="$PROJECT_DIR$/projects_attack.html" />
         <option value="$PROJECT_DIR$/projects_2Dshape.html" />
         <option value="$PROJECT_DIR$/projects_3Dshape.html" />
         <option value="$PROJECT_DIR$/projects_clothes.html" />
-        <option value="$PROJECT_DIR$/projects_attack_en.html" />
         <option value="$PROJECT_DIR$/projects_2Dshape_en.html" />
         <option value="$PROJECT_DIR$/downloads.html" />
         <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/projects_attack.html" />
+        <option value="$PROJECT_DIR$/projects_attack_en.html" />
       </list>
     </option>
   </component>
@@ -480,16 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects_attack.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects_2Dshape.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -536,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects_attack_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="97" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -552,8 +545,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downloads.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="213">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects_attack_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects_attack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
         </state>
       </provider>
     </entry>
