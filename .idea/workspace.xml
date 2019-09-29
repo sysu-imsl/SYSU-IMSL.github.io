@@ -2,23 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef1a8bd-ddf1-4a66-8280-5810cbf08b64" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/projects_2Dshape_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects_3Dshape_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects_attack_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects_clothes_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects_video_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloads.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/downloads_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloads_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/members_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project_template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_2Dshape.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_2Dshape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_2Dshape_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_2Dshape_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_3Dshape.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_3Dshape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_3Dshape_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_3Dshape_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_attack.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_attack_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_clothes.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_clothes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_clothes_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_clothes_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_indoor.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_indoor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_indoor_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_indoor_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects_video.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects_video_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_video_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications_papers.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications_papers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/students_dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/students_en.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,20 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="projects_attack_en.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects_attack_en.html">
+      <file leaf-file-name="downloads.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/downloads.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="97" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects_2Dshape_en.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="93" column="109" selection-start-line="93" selection-start-column="109" selection-end-line="93" selection-end-column="109" />
+            <state relative-caret-position="-7">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -51,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class</find>
       <find>child</find>
       <find>width</find>
       <find>calc</find>
@@ -81,6 +80,7 @@
       <find>class=&quot;head-zh&quot;</find>
       <find>代码</find>
       <find>projects_en</find>
+      <find>CDN-for-IMSL@1.2</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;h3&gt;</replace>
@@ -104,6 +104,7 @@
       <replace>Paper</replace>
       <replace>Introduction</replace>
       <replace>Code</replace>
+      <replace>CDN-for-IMSL@1.3</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -131,7 +132,6 @@
         <option value="$PROJECT_DIR$/projects_indoor.html" />
         <option value="$PROJECT_DIR$/index_en.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/downloads.html" />
         <option value="$PROJECT_DIR$/downloads_en.html" />
         <option value="$PROJECT_DIR$/projects_indoor_en.html" />
         <option value="$PROJECT_DIR$/projects_video_en.html" />
@@ -144,6 +144,7 @@
         <option value="$PROJECT_DIR$/projects_clothes.html" />
         <option value="$PROJECT_DIR$/projects_attack_en.html" />
         <option value="$PROJECT_DIR$/projects_2Dshape_en.html" />
+        <option value="$PROJECT_DIR$/downloads.html" />
       </list>
     </option>
   </component>
@@ -437,17 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downloads.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="164" column="28" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/downloads_en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -563,6 +553,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="71" column="122" lean-forward="true" selection-start-line="71" selection-start-column="122" selection-end-line="71" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects_attack_en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -570,10 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
+    <entry file="file://$PROJECT_DIR$/downloads.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="93" column="109" selection-start-line="93" selection-start-column="109" selection-end-line="93" selection-end-column="109" />
+        <state relative-caret-position="-7">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
         </state>
       </provider>
     </entry>
