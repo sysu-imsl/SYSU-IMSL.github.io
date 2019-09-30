@@ -2411,6 +2411,12 @@ input, select, textarea {
 			border-right: 0;
 		}
 
+		table tbody tr.spec {
+			border: solid 0px rgba(210, 215, 217, 0.9);
+			border-left: 0;
+			border-right: 0;
+		}
+
 		table td {
 			padding: 0.75em 0.75em;
 		}
