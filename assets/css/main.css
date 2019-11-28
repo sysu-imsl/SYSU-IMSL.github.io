@@ -2825,7 +2825,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			margin: 0 0 6em 6em;
+			margin: 0 0 3em 6em;
 			position: relative;
 			width: calc(33.3333333333% - 6em);
 		}
@@ -2834,7 +2834,7 @@ input, select, textarea {
 				background: rgba(210, 215, 217, 0.75);
 				content: '';
 				display: block;
-				height: calc(100% + 6em);
+				height: calc(100%);
 				left: -3em;
 				position: absolute;
 				top: 0;
@@ -2842,14 +2842,7 @@ input, select, textarea {
 			}
 
 			.posts article:after {
-				background: rgba(210, 215, 217, 0.75);
-				bottom: -3em;
-				content: '';
-				display: block;
-				height: 1px;
-				position: absolute;
-				right: 0;
-				width: calc(100% + 6em);
+				display: none;
 			}
 
 			.posts article > :last-child {
@@ -2873,7 +2866,7 @@ input, select, textarea {
 			}
 
 			.posts article:nth-child(3n + 1):after {
-				width: 100%;
+				display: none;
 			}
 
 			.posts article:nth-last-child(1), .posts article:nth-last-child(2), .posts article:nth-last-child(3) {
@@ -2909,7 +2902,7 @@ input, select, textarea {
 			}
 
 			.posts article:nth-child(2n + 1):after {
-				width: 100%;
+				display: none;
 			}
 
 			.posts article:nth-last-child(1), .posts article:nth-last-child(2) {
@@ -2944,8 +2937,7 @@ input, select, textarea {
 					}
 
 					.posts article:after {
-						bottom: -2.25em;
-						width: calc(100% + 4.5em);
+						display: none;
 					}
 
 					.posts article:nth-last-child(3) {

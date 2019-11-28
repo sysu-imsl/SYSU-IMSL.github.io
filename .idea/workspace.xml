@@ -43,8 +43,8 @@
       <file leaf-file-name="students_dev.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/students_dev.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="277">
+              <caret line="63" column="36" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,8 @@
       <file leaf-file-name="students_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/students_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1119">
-              <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+            <state relative-caret-position="352">
+              <caret line="49" column="165" lean-forward="true" selection-start-line="49" selection-start-column="165" selection-end-line="49" selection-end-column="165" />
             </state>
           </provider>
         </entry>
@@ -61,17 +61,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="2883" column="32" selection-start-line="2883" selection-start-column="32" selection-end-line="2883" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="members.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/members.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-end-line="3580" selection-end-column="9" />
+            <state relative-caret-position="449">
+              <caret line="2827" column="25" selection-start-line="2827" selection-start-column="25" selection-end-line="2827" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -80,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../files/</find>
       <find>&quot;files/</find>
       <find>CDN-for-IMSL@1.0</find>
       <find>&quot;images/</find>
@@ -110,6 +100,7 @@
       <find>googlea</find>
       <find>googleapis</find>
       <find>CDN-for-IMSL@1.6</find>
+      <find>CDN-for-IMSL@1.7</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;h3&gt;</replace>
@@ -139,6 +130,7 @@
       <replace>CDN-for-IMSL@1.5</replace>
       <replace>CDN-for-IMSL@1.6</replace>
       <replace>CDN-for-IMSL@1.7</replace>
+      <replace>CDN-for-IMSL@1.8</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,12 +165,12 @@
         <option value="$PROJECT_DIR$/projects_attack_en.html" />
         <option value="$PROJECT_DIR$/projects_attack.html" />
         <option value="$PROJECT_DIR$/projects_indoor.html" />
-        <option value="$PROJECT_DIR$/index_en.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/members.html" />
         <option value="$PROJECT_DIR$/members_en.html" />
-        <option value="$PROJECT_DIR$/students_en.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index_en.html" />
         <option value="$PROJECT_DIR$/students_dev.html" />
+        <option value="$PROJECT_DIR$/students_en.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
       </list>
     </option>
@@ -265,7 +257,6 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17855257" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4352078" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -278,6 +269,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -554,27 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects_2Dshape.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="83" column="139" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="101" column="143" selection-start-line="101" selection-start-column="143" selection-end-line="101" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -596,20 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/students_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1119">
-          <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/students_dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/members.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -617,10 +574,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects_2Dshape.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="245" column="48" selection-start-line="245" selection-start-column="48" selection-end-line="245" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="49" column="165" lean-forward="true" selection-start-line="49" selection-start-column="165" selection-end-line="49" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students_dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="2883" column="32" selection-start-line="2883" selection-start-column="32" selection-end-line="2883" selection-end-column="32" />
+        <state relative-caret-position="449">
+          <caret line="2827" column="25" selection-start-line="2827" selection-start-column="25" selection-end-line="2827" selection-end-column="25" />
         </state>
       </provider>
     </entry>
