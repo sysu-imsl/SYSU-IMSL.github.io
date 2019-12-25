@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef1a8bd-ddf1-4a66-8280-5810cbf08b64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloads.html" afterDir="false" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="students_dev.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/students_dev.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="321">
+              <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -52,17 +51,17 @@
       <file leaf-file-name="students_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/students_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="49" column="165" lean-forward="true" selection-start-line="49" selection-start-column="165" selection-end-line="49" selection-end-column="165" />
+            <state relative-caret-position="220">
+              <caret line="133" column="65" selection-start-line="133" selection-start-column="65" selection-end-line="133" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="2827" column="25" selection-start-line="2827" selection-start-column="25" selection-end-line="2827" selection-end-column="25" />
+            <state relative-caret-position="189">
+              <caret line="186" column="38" lean-forward="true" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -71,16 +70,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;files/</find>
-      <find>CDN-for-IMSL@1.0</find>
-      <find>&quot;images/</find>
-      <find>CDN-for-IMSL@1.1</find>
-      <find>yang</find>
       <find>ToCB</find>
       <find>'file</find>
       <find>indoor_</find>
-      <find />
-      <find />
+      <find>&lt;title&gt;中山大学 智能与多媒体科学实验室&lt;/title&gt;</find>
+      <find>中山大学 智能与多媒体科学实验室</find>
       <find>ul</find>
       <find>zh</find>
       <find>adversarial</find>
@@ -101,9 +95,13 @@
       <find>googleapis</find>
       <find>CDN-for-IMSL@1.6</find>
       <find>CDN-for-IMSL@1.7</find>
+      <find>before</find>
+      <find>article</find>
+      <find>CDN-for-IMSL@1.8</find>
+      <find>sysuimsl@gmail.com</find>
+      <find>https://goo.gl/maps/P7iu1XtZfrk5TsKz5</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;h3&gt;</replace>
       <replace>projects_indoor.html</replace>
       <replace>学术成果</replace>
       <replace>publications_papers.html</replace>
@@ -124,13 +122,16 @@
       <replace>Paper</replace>
       <replace>Introduction</replace>
       <replace>CDN-for-IMSL@1.3</replace>
-      <replace />
+      <replace>Room A207</replace>
       <replace>CDN-for-IMSL@1.4</replace>
       <replace>Code</replace>
       <replace>CDN-for-IMSL@1.5</replace>
       <replace>CDN-for-IMSL@1.6</replace>
       <replace>CDN-for-IMSL@1.7</replace>
       <replace>CDN-for-IMSL@1.8</replace>
+      <replace>CDN-for-IMSL@1.9</replace>
+      <replace>sysuimsl@126.com</replace>
+      <replace>https://ditu.amap.com/place/B0FFH83G38</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,10 +169,10 @@
         <option value="$PROJECT_DIR$/members.html" />
         <option value="$PROJECT_DIR$/members_en.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/students_en.html" />
         <option value="$PROJECT_DIR$/index_en.html" />
         <option value="$PROJECT_DIR$/students_dev.html" />
-        <option value="$PROJECT_DIR$/students_en.html" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
       </list>
     </option>
   </component>
@@ -190,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,22 +199,10 @@
               <item name="SYSU-IMSL.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="SYSU-IMSL.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SYSU-IMSL.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SYSU-IMSL.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SYSU-IMSL.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SYSU-IMSL.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,38 +571,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="59" column="63" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="63" />
+        <state relative-caret-position="515">
+          <caret line="2827" column="25" selection-start-line="2827" selection-start-column="25" selection-end-line="2827" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/students_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="49" column="165" lean-forward="true" selection-start-line="49" selection-start-column="165" selection-end-line="49" selection-end-column="165" />
+        <state relative-caret-position="286">
+          <caret line="214" column="52" selection-start-line="214" selection-start-column="52" selection-end-line="214" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/students_dev.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="321">
+          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/students_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="2827" column="25" selection-start-line="2827" selection-start-column="25" selection-end-line="2827" selection-end-column="25" />
+        <state relative-caret-position="220">
+          <caret line="133" column="65" selection-start-line="133" selection-start-column="65" selection-end-line="133" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="186" column="38" lean-forward="true" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
         </state>
       </provider>
     </entry>
