@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
@@ -82,19 +82,26 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/files/images/projects/attack-upc.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/projects/attack-cvpr2020.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
-								    <h3> <a href="https://arxiv.org/pdf/1909.04326">UPC: Learning Universal Physical Camouflage Attack on Object Detectors</a></h3>
+								    <h3> <a href="https://arxiv.org/pdf/1909.04326">Universal Physical Camouflage Attacks on Object Detectors</a></h3>
                                     <p>
                                         <strong>简介：</strong>
-                                        We study physical adversarial attacks on object detectors in the wild.
-                                        Prior arts on this matter are mostly instance-level attacks performed under
-                                        irreproducible environments.
-                                        To this end, we propose to learn an adversarial pattern to effectively
-                                        attack all instances belonging to the same object category (e.g., person, car),
-                                        referred to as Universal Physical Camouflage Attack (UPC).
+                                        论文提出了一种物理场景下对抗攻击检测模型的方法。现有的方法通常只能生成个体级别的伪装图案，
+										且约束物体需具备刚体或平面的特征（如路牌、车等），难以在实际中应用。针对这些缺陷，
+										该工作提出了一种通用级别的伪装攻击框架，可以对一类中所有实例物体进行有效的攻击，
+										且在非刚体与非平面的攻击场景下保持了较高的鲁棒性。该方法的主要思路包括两部分：<br>
+										(1)数据生成阶段，即通过同时对复杂对象的内在性质（如形变、遮挡等）与外在环境（如光照、角度等）
+										进行物理仿真，生成拟真数据集；<br>
+										(2)联合攻击阶段，即基于生成的数据集对RPN网络和分类网络同时展开攻击，
+										结合语义约束降低攻击目标的置信度。两个阶段以迭代优化的方式生成伪装图案。
+										此外，针对该领域缺少评估环境的困境，该工作构建了一个参数可控的合成数据库（AttackScenes）。
+										通过大量的实验证明，该工作提出的方法不仅能在虚拟场景和现实世界中对目标检测模型进行有效的攻击，
+										还展现出较好的泛化性与迁移性。
                                         <br>
+                                        <br>
+                                        <em>Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2020
                                         <br>
                                         <a href="https://arxiv.org/pdf/1909.04326">[论文]</a>
                                         <a href="https://mesunhlf.github.io/index_physical.html">[项目主页]</a>
@@ -104,7 +111,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/files/images/projects/attack-guap.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/projects/attack-guap.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="http://www.acml-conf.org/2019/conference/accepted-papers/419/?from=singlemessage&isappinstalled=0&scene=1&clicktime=1577243300&enterid=1577243300">G-UAP: Generic Universal Adversarial Perturbation that Fools RPN-based Detectors</a></h3>
@@ -146,7 +153,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -195,15 +202,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.9/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
