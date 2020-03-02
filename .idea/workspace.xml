@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef1a8bd-ddf1-4a66-8280-5810cbf08b64" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloads.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloads_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/members_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_2Dshape.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_2Dshape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_2Dshape_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_2Dshape_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_3Dshape.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_3Dshape.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_3Dshape_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_3Dshape_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_attack.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_attack_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_attack_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_clothes.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_clothes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_clothes_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_clothes_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_indoor.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_indoor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_indoor_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_indoor_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_video.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects_video_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects_video_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publications_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publications_papers.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications_papers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/students_dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/students_en.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,29 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="projects_2Dshape.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects_2Dshape.html">
+      <file leaf-file-name="publications_en.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publications_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+            <state relative-caret-position="193">
+              <caret line="50" column="118" lean-forward="true" selection-start-line="50" selection-start-column="118" selection-end-line="50" selection-end-column="118" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects_2Dshape_en.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
+      <file leaf-file-name="publications_papers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publications_papers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="78" column="131" selection-start-line="77" selection-start-column="40" selection-end-line="78" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects_attack.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects_attack.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="103" column="54" lean-forward="true" selection-start-line="103" selection-end-line="104" />
+            <state relative-caret-position="363">
+              <caret line="49" column="126" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="126" />
             </state>
           </provider>
         </entry>
@@ -96,7 +62,7 @@
       <find>sysuimsl@gmail.com</find>
       <find>https://goo.gl/maps/P7iu1XtZfrk5TsKz5</find>
       <find>http://sweb.cityu.edu.hk/hongbofu/doc/language-based_sketch_colorization_SA19.pdf</find>
-      <find />
+      <find>&lt;a href=&quot;&quot;&gt;</find>
       <find>2016-2019</find>
       <find>2012-2020</find>
       <find>CDN-for-IMSL@1.9</find>
@@ -118,7 +84,7 @@
       <replace>Paper</replace>
       <replace>Introduction</replace>
       <replace>CDN-for-IMSL@1.3</replace>
-      <replace />
+      <replace>Room A207</replace>
       <replace>CDN-for-IMSL@1.4</replace>
       <replace>Code</replace>
       <replace>CDN-for-IMSL@1.5</replace>
@@ -157,7 +123,6 @@
         <option value="$PROJECT_DIR$/projects_video.html" />
         <option value="$PROJECT_DIR$/projects_3Dshape.html" />
         <option value="$PROJECT_DIR$/projects_clothes.html" />
-        <option value="$PROJECT_DIR$/projects_2Dshape_en.html" />
         <option value="$PROJECT_DIR$/downloads.html" />
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/projects_indoor.html" />
@@ -168,11 +133,12 @@
         <option value="$PROJECT_DIR$/members_en.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_en.html" />
-        <option value="$PROJECT_DIR$/publications_en.html" />
-        <option value="$PROJECT_DIR$/publications_papers.html" />
         <option value="$PROJECT_DIR$/projects_attack.html" />
         <option value="$PROJECT_DIR$/projects_attack_en.html" />
         <option value="$PROJECT_DIR$/projects_2Dshape.html" />
+        <option value="$PROJECT_DIR$/projects_2Dshape_en.html" />
+        <option value="$PROJECT_DIR$/publications_papers.html" />
+        <option value="$PROJECT_DIR$/publications_en.html" />
       </list>
     </option>
   </component>
@@ -557,20 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publications_papers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publications_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="50" column="228" selection-start-line="50" selection-start-column="228" selection-end-line="50" selection-end-column="228" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects_video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -585,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="78" column="131" selection-start-line="77" selection-start-column="40" selection-end-line="78" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects_attack.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -601,8 +546,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects_2Dshape.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+        <state relative-caret-position="563">
+          <caret line="100" column="79" selection-start-line="100" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects_2Dshape_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications_papers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="49" column="126" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="50" column="118" lean-forward="true" selection-start-line="50" selection-start-column="118" selection-end-line="50" selection-end-column="118" />
         </state>
       </provider>
     </entry>
