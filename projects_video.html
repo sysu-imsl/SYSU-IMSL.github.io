@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
@@ -78,7 +78,53 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/projects/ADCrowdNet.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/projects/icme2020-fisheye.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">Self-Bootstrapping Pedestrian Detection in Downward-Viewing Fisheye Cameras Using Pseudo-Labeling</a></h3>
+                                    <p>
+                                        <strong>简介：</strong>
+                                        垂直鱼眼摄像头由于其大视角、避免了遮挡等优点被广泛应用于视频监控领域。
+                                        然而由于缺乏具有实例标注的行人数据集，基于垂直鱼眼视频的行人分析研究受到严重制约。
+                                        针对于此，本文创新地提出一种基于区域分割的垂直鱼眼行人自动标注方法，可实现具有实例标注的垂直鱼眼行人数据集的自动构造。
+                                        本文首先根据入射光线与摄像头的光轴形成的夹角将垂直鱼眼镜头的监控区域分为斜照和垂直两个区域，然后分别对两个区域中行人进行标注：
+                                        在斜照区域，利用斜照区域行人与现有数据集中行人存在一定相似程度的特点，使用微调后的全监督行人检测网络对该区域行人进行标注；
+                                        在垂直区域，通过利用监控视频中行人存在时间和空间连贯性的特点，使用视觉跟踪算法，结合斜照区域的行人检测的结果，对该区域行人进行标注。
+                                        本文方法生成具有实例标注的垂直鱼眼行人数据集可直接用于训练垂直鱼眼行人检测网络，也为其它垂直鱼眼视频分析领域提供数据支持。
+                                        <br>
+                                        <br>
+                                        <em>International Conference on Multimedia & Expo (<strong>ICME</strong>)</em>, 2020
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/projects/icme2020-crowd.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">Scale-Aware Rolling Fusion Network for Crowd Counting</a></h3>
+                                    <p>
+                                        <strong>简介：</strong>
+                                        在人群计数的任务中，存在遮挡，背景干扰和人群大尺度变化等因素，影响人群计数的精度，其中人群尺度的变化对计数的影响最大。
+                                        本文提出了一个两阶段的尺度感知循环融合网络用于解决人群计数中存在的挑战。
+                                        首先第一阶段使用一个有非对称的编码-解码结构，在尽可能保留图片中提取的信息的同时排除了部分干扰信息。
+                                        其次第二阶段的循环监督网络，不同于以往通过多列或多分支的结构，使用循环结构逐步提取多尺度特征并在循环中使用监督渐进优化提取的特征。
+                                        与以往的方法相比，循环监督网络的优势是不需要通过增加参数却能够通过循环极大地丰富感受野，从而更好地解决人群尺度变化的问题。
+                                        本文的方法在三个广泛使用的公开的人群计数数据集上进行了测试并取得了最优的结果。
+                                        <br>
+                                        <br>
+                                        <em>International Conference on Multimedia & Expo (<strong>ICME</strong>)</em>, 2020
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/projects/ADCrowdNet.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_ADCrowdNet_An_Attention-Injective_Deformable_Convolutional_Network_for_Crowd_Understanding_CVPR_2019_paper.pdf">ADCrowdNet: An Attention-Injective Deformable Convolutional Network for Crowd Understanding</a></h3>
@@ -99,7 +145,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/projects/video-spic18.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/projects/video-spic18.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S092359651730262X">Weak-structure-aware visual object tracking with bottom-up and top-down context exploration</a></h3>
@@ -119,7 +165,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/projects/vedio-toc15.gif" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/projects/vedio-toc15.gif" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://ieeexplore.ieee.org/document/6819051/">Hierarchical Ensemble of Background Models for PTZ-based Video Surveillance</a></h3>
@@ -158,7 +204,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -207,15 +253,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.10/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.11/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
