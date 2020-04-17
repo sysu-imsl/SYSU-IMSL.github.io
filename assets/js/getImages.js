@@ -7,12 +7,12 @@ function onClick(arg) {
     var json_path = '';
     var result_array = [];
     if (data_ == "Objects") {
-        sketch_path = 'data/Object/Sketch/';
-        gt_path = 'data/Object/GT/';
+        sketch_path = 'images/Object/Sketch/';
+        gt_path = 'images/Object/GT/';
         json_path = '/Object.json'
     } else {
-        sketch_path = 'data/Scene/Sketch/';
-        gt_path = 'data/Scene/GT/';
+        sketch_path = 'images/Scene/Sketch/';
+        gt_path = 'images/Scene/GT/';
         json_path = '/Scene.json'
     }
     $.ajax({
@@ -26,16 +26,16 @@ function onClick(arg) {
             } else {
                 var tmp = data.data;
             }
-            console.log(tmp)
+            // console.log(tmp)
             var counter = 0;
             for (var n = 0; n<tmp.length; n++) {
                 path = tmp[n];
                 if (counter % 2 == 0 && counter != 0) {
-                    result_array.push("        </tr>\n        <tr>\n          <td>\n            <a href=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + sketch_path + path + ">" + "<img src=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
-                    result_array.push("          <td>\n            <a href=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + gt_path + path + ">" + "<img src=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("        </tr>\n        <tr>\n          <td>\n            <a href=" + "http://sysu-imsl.com/" + sketch_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("          <td>\n            <a href=" + "http://sysu-imsl.com/" + gt_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                 } else {
-                    result_array.push("          <td>\n            <a href=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + sketch_path + path + ">" + "<img src=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
-                    result_array.push("          <td>\n            <a href=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + gt_path + path + ">" + "<img src=" + "https://github.com/sysu-imsl/SketchyCOCO/blob/master/" + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("          <td>\n            <a href=" + "http://sysu-imsl.com/" + sketch_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("          <td>\n            <a href=" + "http://sysu-imsl.com/" + gt_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                 }
                 counter++;
             }
