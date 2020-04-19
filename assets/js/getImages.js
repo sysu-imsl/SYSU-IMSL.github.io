@@ -30,7 +30,7 @@ function onClick(arg) {
             var counter = 0;
             for (var n = 0; n<tmp.length; n++) {
                 path = tmp[n];
-                if (counter % 2 == 0 && counter != 0) {
+                if (counter % 1 == 0 && counter != 0) {
                     result_array.push("        </tr>\n        <tr>\n          <td>\n            <a href=" + "http://sysu-imsl.com/" + sketch_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                     result_array.push("          <td>\n            <a href=" + "http://sysu-imsl.com/" + gt_path + path + ">" + "<img src=" + "http://sysu-imsl.com/" + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                 } else {
