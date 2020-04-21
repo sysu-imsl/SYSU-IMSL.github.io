@@ -58,6 +58,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+td {
+    text-align: center;
+}
 .container {
     overflow: hidden;
     padding: 0 205px;
