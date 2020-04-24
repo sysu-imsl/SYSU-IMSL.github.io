@@ -1,0 +1,9 @@
+.idea
+.idea/
+
+# temporary files
+*.txt~
+*.pyc
+.DS_Store
+.gitignore~
+
