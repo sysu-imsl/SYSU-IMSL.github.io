@@ -11,9 +11,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="Intelligent and Multimedia Science Laboratory" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
@@ -33,64 +33,93 @@
 						<ul class="icons">
 							<li><a href="https://github.com/sysu-imsl" class="icon fa-github"><span class="label">Github</span></a></li>
 							<li><a href="mailto:sysuimsl@126.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-                            <li><a href="projects_3Dshape.html">中文版 ☞</a></li>
+                            <li><a href="../projects_attack.html">中文版 ☞</a></li>
                         </ul>
 					</header>
 
 					<br>
 
                     <ul class="iconstext">
-                        <li><a href="projects_indoor_en.html">Indoor Localization</a></li>
+                        <li><a href="projects_indoor.html">Indoor Localization</a></li>
                         <li> </li>
-                        <li><a href="projects_video_en.html">Video Analysis</a></li>
+                        <li><a href="projects_video.html">Video Analysis</a></li>
                         <li> </li>
-                        <li><a href="projects_attack_en.html">Image Adversarial Attack</a></li>
+                        <li>Image Adversarial Attack</li>
                     </ul>
 
                     <ul class="iconstext">
-                        <li><a href="projects_2Dshape_en.html">Graphics & Image Processing</a></li>
+                        <li><a href="projects_2Dshape.html">Graphics & Image Processing</a></li>
                         <li> </li>
-                        <li><a href="projects_clothes_en.html">Garment Modeling & Virtual Try-on</a></li>
+                        <li><a href="projects_clothes.html">Garment Modeling & Virtual Try-on</a></li>
                         <li> </li>
-                        <li>3d Rendering & Modeling</li>
+                        <li><a href="projects_3Dshape.html">3d Rendering & Modeling</a></li>
                     </ul>
 
 
-                    <section id="fabric">
+                    <section id="attack">
                         <header class="major">
-							<h2>Fabric Modeling and Rendering</h2>
+							<h2>Image Adversarial Attack</h2>
 						</header>
 
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/images/projects/fabric-model.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/images/projects/attack-cvpr2020.png" alt="" width="100%" border="1"/>
                                 </td>
-                                <td width="70%" class="tdp">
-								    <h3> <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/docs/fabric-model.pdf">Fully automatic algorithm on yarn model generation</a></h3>
+                                <td width="70%">
+								    <h3> <a href="https://arxiv.org/pdf/1909.04326">Universal Physical Camouflage Attacks on Object Detectors</a></h3>
                                     <p>
+                                        <strong>Intro: </strong>
+                                        In this paper, we study physical adversarial attacks on object detectors in the wild.
+										Previous works on this matter mostly craft instance-dependent perturbations
+										only for rigid and planar objects.
+										To this end, we propose to learn an adversarial pattern to effectively
+										attack all instances belonging to the same object category (e.g., person, car),
+										referred to as Universal Physical Camouflage Attack (UPC).
+										Concretely, UPC crafts camouflage by jointly fooling the region proposal network,
+										as well as misleading the classifier and the regressor to output errors.
+										In order to make UPC effective for articulated non-rigid or non-planar objects,
+										we introduce a set of transformations for the generated camouflage patterns to
+										mimic their deformable properties.
+										We additionally impose optimization constraint to make generated patterns look
+										natural to human observers. To fairly evaluate the effectiveness of different
+										physical-world attacks on object detectors, we present the first standardized
+										virtual database, AttackScenes, which simulates the real 3D world in a controllable
+										and reproducible environment. Extensive experiments suggest the superiority of
+										our proposed UPC compared with existing physical adversarial attackers not only
+										in virtual environments (AttackScenes), but also in real-world physical environments.
                                         <br>
                                         <br>
-                                        <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/docs/fabric-model.pdf">[Introduction (PPT)]</a>
+                                        <em>Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2020
+                                        <br>
+                                        <a href="https://arxiv.org/pdf/1909.04326">[Paper]</a>
+                                        <a href="https://mesunhlf.github.io/index_physical.html">[Project Page]</a>
                                     </p>
                                 </td>
                             </tr>
+
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/images/projects/fabric-render.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/images/projects/attack-guap.png" alt="" width="100%" border="1"/>
                                 </td>
-                                <td width="70%" class="tdp">
-								    <h3> <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/docs/fabric-render.pdf">Microscopic model based real time algorithm on fabric rendering</a></h3>
+                                <td width="70%">
+								    <h3> <a href="http://www.acml-conf.org/2019/conference/accepted-papers/419/?from=singlemessage&isappinstalled=0&scene=1&clicktime=1577243300&enterid=1577243300">G-UAP: Generic Universal Adversarial Perturbation that Fools RPN-based Detectors</a></h3>
                                     <p>
+                                        <strong>Intro: </strong>
+                                        Our paper proposed the G-UAP which is the first work to craft universal
+                                        adversarial perturbations to fool the RPN-based detectors. G-UAP focuses
+                                        on misleading the foreground prediction of RPN to background to make detectors
+                                        detect nothing.
                                         <br>
                                         <br>
-                                        <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.13/files/docs/fabric-render.pdf">[Introduction (PPT)]</a>
+                                        <em>Asian Conference on Machine Learning (<strong>ACML</strong>)</em>, 2019
+										<br>
+                                        <a href="http://www.acml-conf.org/2019/conference/accepted-papers/419/?from=singlemessage&isappinstalled=0&scene=1&clicktime=1577243300&enterid=1577243300">[Paper]</a>
                                     </p>
                                 </td>
                             </tr>
 
                         </table>
-
 
                     </section>
 
@@ -123,12 +152,12 @@
 									<h2>Menu</h2>
 								</header>
 								<ul>
-									<li><a href="index_en.html">Home</a></li>
-									<li><a href="projects_3Dshape_en.html">Projects</a></li>
-									<li><a href="publications_en.html">Publications</a></li>
-									<li><a href="members_en.html">Members</a></li>
-									<li><a href="students_en.html">Student Development</a></li>
-									<li><a href="downloads_en.html">Related Materials</a></li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="projects_attack.html">Projects</a></li>
+									<li><a href="publications.html">Publications</a></li>
+									<li><a href="members.html">Members</a></li>
+									<li><a href="students.html">Student Development</a></li>
+									<li><a href="downloads.html">Related Materials</a></li>
 									<!--
 									<li>
 										<span class="opener">Submenu</span>
@@ -219,10 +248,10 @@
 		})();
 		</script>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 	</body>
 </html>
