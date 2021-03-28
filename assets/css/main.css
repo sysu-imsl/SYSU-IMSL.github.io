@@ -156,6 +156,11 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	    a.carousel-control {
+	        border-bottom: dotted 0px;
+	        outline:0;
+	    }
+
 		a:hover {
 			border-bottom-color: #f56a6a;
 			color: #f56a6a !important;
@@ -177,7 +182,7 @@ input, select, textarea {
 	p {
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h11, h2, h3, h4, h5, h6 {
 		color: #3d4449;
 		/* font-family: "Roboto Slab", serif; */
 		font-weight: 700;
@@ -185,13 +190,13 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h11 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 			border-bottom: 0;
 		}
 
-		h1.head-zh, h2.head-zh, h3.head-zh, h4.head-zh, h5.head-zh, h6.head-zh {
+		h1.head-zh, h11.head-zh, h2.head-zh, h3.head-zh, h4.head-zh, h5.head-zh, h6.head-zh {
 		    font-family: "微软雅黑", serif;
 		}
 
@@ -199,6 +204,10 @@ input, select, textarea {
 		font-size: 4em;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
+	}
+
+	h11 {
+		font-size: 2.1em;
 	}
 
 	h2 {
@@ -3313,7 +3322,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		border-bottom: solid 5px #f56a6a;
-		padding: 6em 0 1em 0;
+		padding: 1em 0 1em 0;
 		position: relative;
 	}
 
@@ -3339,7 +3348,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#header {
-				padding-top: 5em;
+				padding-top: 0em;
 			}
 
 		}
@@ -3347,7 +3356,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding-top: 6.5em;
+				padding-top: 1.5em;
 			}
 
 				#header .logo {

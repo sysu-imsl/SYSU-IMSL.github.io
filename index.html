@@ -7,11 +7,12 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -21,6 +22,10 @@
 		    enable_page_level_ads: true
 		  });
 		</script>
+
+		<script src="assets/js/jquery2.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
 	</head>
 	<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
 	<body class="is-preload">
@@ -30,28 +35,85 @@
 		    	<div class="inner">
 					<!-- Header -->
 					<header id="header">
-						<ul class="icons">
-							<li><a href="https://github.com/sysu-imsl" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:sysuimsl@126.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-                            <li><a href="en/index.html">Eng. Version ☞</a></li>
-						</ul>
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                            <tr class="spec">
+                                <td width="70%">
+									<h11 class="head-zh">智能与多媒体科学实验室</h11>
+                                </td>
+                                <td width="30%">
+								    <ul class="icons">
+										<li><a href="https://github.com/sysu-imsl" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="mailto:sysuimsl@126.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+										<li><a href="en/index.html">Eng. Version ☞</a></li>
+									</ul>
+                                </td>
+                            </tr>
+                        </table>
 					</header>
 
 					<!-- Banner -->
+					<br>
+
+					<div class="main-container container">
+
+					  <div id="views-bootstrap-carousel-1" class="views-bootstrap-carousel-plugin-style carousel slide"  data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#views-bootstrap-carousel-1" data-slide-to="0" class="active"></li>
+						  <li data-target="#views-bootstrap-carousel-1" data-slide-to="1" class=""></li>
+						  <li data-target="#views-bootstrap-carousel-1" data-slide-to="2" class=""></li>
+						  <li data-target="#views-bootstrap-carousel-1" data-slide-to="3" class=""></li>
+						</ol>
+
+						<div class="carousel-inner">
+						  <div class="item active">
+							<img typeof="foaf:Image" class="img-responsive" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/indoor-teasers.jpg" width="1200" height="460" alt="" />
+						  </div>
+						  <div class="item ">
+							<img typeof="foaf:Image" class="img-responsive" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/video-teasers.jpg" width="1200" height="460" alt="" />
+						  </div>
+						  <div class="item ">
+							<img typeof="foaf:Image" class="img-responsive" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/attack-teasers.jpg" width="1200" height="460" alt="" />
+						  </div>
+						  <div class="item ">
+							<img typeof="foaf:Image" class="img-responsive" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/sketch-teasers.jpg" width="1200" height="460" alt="" />
+						  </div>
+						</div>
+
+						<a class="carousel-control left" href="#views-bootstrap-carousel-1" data-slide="prev">
+						  <span class="icon-prev"></span>
+						</a>
+
+						<a class="carousel-control right" href="#views-bootstrap-carousel-1" data-slide="next">
+						  <span class="icon-next"></span>
+						</a>
+
+					  </div>
+					</div>
+
+
 					<section id="banner">
 						<div class="content">
-							<header>
-								<h2 class="head-zh">智能与多媒体科学实验室</h2>
-							</header>
-							</br>中山大学 计算机学院
-							</br>中国 广州
-                            </br></br>联系邮箱: sysuimsl@126.com
-							</br>地址: 中山大学, 计算机学院, A207室
+							<header class="major">
+                                <h2 class="head-zh">实验室简介</h2>
+                            </header>
+
+							<p>
+								实验室专注于智能科学与多媒体应用领域交叉融合的研究与实现，具体研究方向包括：
+								<br>
+								<strong>计算机视觉</strong>（基于视觉的多模态室内定位、运动目标分析与检测、图像对抗攻击）、
+								<br>
+								<strong>计算机图形学</strong>（图形图像处理、服装建模与虚拟试衣、三维渲染与建模）等。
+								<br>
+								详情请看<a href="projects_indoor.html"> 实验室项目 </a>页面。
+
+								<br><br>
+								欢迎各位新同学加入我们实验室！
+							</p>
 								
 						</div>
 
                         <span class="image object">
-                            <!--<img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/lab.jpg" alt="" />-->
+                            <!--<img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/lab.jpg" alt="" />-->
 
                             <header class="major">
                                 <h2 class="head-zh">实验室动态</h2>
@@ -77,30 +139,18 @@
 				   
 					</section>
 
-					<p>
-						实验室专注于智能科学与多媒体应用领域交叉融合的研究与实现，具体研究方向包括：
-                        <strong>计算机视觉</strong>（基于视觉的多模态室内定位、运动目标分析与检测、图像对抗攻击）、
-                        <strong>计算机图形学</strong>（图形图像处理、服装建模与虚拟试衣、三维渲染与建模）等。
-                        详情请看<a href="projects_indoor.html"> 实验室项目 </a>页面。
-
-                        <br><br>
-                        欢迎各位新同学加入我们实验室！
-					</p>
-
-                    <br>
-
 					<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                         <tr class="spec">
                             <td width="33%" valign="top">
-                                <img class="image fit thumb" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/home/building2.jpg" alt="" width="100%" border="0">
+                                <img class="image fit thumb" src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/building2.jpg" alt="" width="100%" border="0">
                             </td>
 
                             <td width="33%" valign="top">
-                                <img class="image fit thumb"  src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/home/garden.jpg" alt="" width="100%" border="0">
+                                <img class="image fit thumb"  src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/garden.jpg" alt="" width="100%" border="0">
                             </td>
 
                             <td width="33%" valign="top">
-                                <img class="image fit thumb"  src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/home/lab.jpg" alt="" width="100%" border="0">
+                                <img class="image fit thumb"  src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/home/lab.jpg" alt="" width="100%" border="0">
                             </td>
 
                         </tr>
@@ -120,7 +170,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -169,15 +219,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.19/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.20/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
@@ -192,8 +242,8 @@
 									<h2 class="head-zh">联系方式</h2>
 								</header>
 								<ul class="contact">
-									<li class="fa-envelope-o"><a href="#">sysuimsl@126.com</a></li>
-									<li class="fa-home"><a href="https://goo.gl/maps/P7iu1XtZfrk5TsKz5">中山大学, 计算机学院, A207室</a>
+									<li class="fa-envelope-o">联系邮箱: <a href="#">sysuimsl@126.com</a></li>
+									<li class="fa-home">地址: <a href="https://goo.gl/maps/P7iu1XtZfrk5TsKz5">中国 广州, 中山大学, 计算机学院, A207室</a>
 									</li>
 								</ul>
 								<!--<article class="5u 10u$(xsmall) work-item">-->
