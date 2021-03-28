@@ -182,6 +182,11 @@ input, select, textarea {
 	p {
 	}
 
+	div.spec {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+
 	h1, h11, h2, h3, h4, h5, h6 {
 		color: #3d4449;
 		/* font-family: "Roboto Slab", serif; */
