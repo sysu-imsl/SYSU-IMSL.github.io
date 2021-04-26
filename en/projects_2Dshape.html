@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>Intelligent and Multimedia Science Laboratory</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="Intelligent and Multimedia Science Laboratory" />
@@ -72,7 +72,37 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/siggraph2021.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://markmohr.github.io/virtual_sketching/">General Virtual Sketching Framework for Vector Line Art</a></h3>
+                                    <p>
+                                        <strong>Intro: </strong>
+                                        Vector line art plays an important role in graphic design, however,
+                                        it is tedious to manually create.
+                                        We introduce a general framework to produce line drawings from a wide variety of images,
+                                        by learning a mapping from raster image space to vector image space.
+                                        Our approach is based on a recurrent neural network that draws the lines one by one.
+                                        A differentiable rasterization module allows for training with only supervised raster data.
+                                        We use a dynamic window around a virtual pen while drawing lines,
+                                        implemented with a proposed aligned cropping and differentiable pasting modules.
+                                        Furthermore, we develop a stroke regularization loss that encourages the model
+                                        to use fewer and longer strokes to simplify the resulting vector image.
+                                        Ablation studies and comparisons with existing methods corroborate the efficiency of our approach
+                                        which is able to generate visually better results in less computation time,
+                                        while generalizing better to a diversity of images and applications.
+                                        <br>
+                                        <br>
+                                        <em>ACM Transactions on Graphics (Proceedings of ACM <strong>SIGGRAPH</strong> 2021) <strong><font color="#FF0000">(*oral)</font></strong> </em>
+                                        <br>
+                                        <a href="https://markmohr.github.io/virtual_sketching/">[Project Page]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://arxiv.org/abs/2003.02683">SketchyCOCO: Image Generation from Freehand Scene Sketches</a></h3>
@@ -99,15 +129,25 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://github.com/SketchyScene/SketchySceneColorization">Language-based Colorization of Scene Sketches</a></h3>
                                     <p>
                                         <strong>Intro: </strong>
-                                        This paper proposed the first language-based user-customizable colorization system
-                                        for scene sketches. We also proposed the first architecture for text-based instance-level
-                                        segmentation of scene sketches.
+                                        This paper for the first time presents a language-based system
+                                        for interactive colorization of scene sketches, based on semantic comprehension.
+                                        The proposed system is built upon deep neural networks
+                                        trained on a large-scale repository of scene sketches
+                                        and cartoonstyle color images with text descriptions.
+                                        Given a scene sketch, our system allows users, via language-based instructions,
+                                        to interactively localize and colorize specific foreground object instances
+                                        to meet various colorization requirements in a progressive way.
+                                        We demonstrate the effectiveness of our approach via comprehensive experimental results
+                                        including alternative studies, comparison with the state-of-the-art methods,
+                                        and generalization user studies. Given the unique characteristics of language-based inputs,
+                                        we envision a combination of our interface with a traditional scribble-based interface
+                                        for a practical multimodal colorization system, benefiting various applications.
                                         <br>
                                         <br>
                                         <em>ACM Transactions on Graphics (Proceedings of ACM <strong>SIGGRAPH Asia</strong> 2019) <strong><font color="#FF0000">(*oral)</font></strong> </em>
@@ -119,7 +159,7 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://sketchyscene.github.io/SketchyScene/">SketchyScene: Richly-Annotated Scene Sketches</a></h3>
@@ -151,7 +191,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%" class="tdp">
 								    <h3> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">PencilArt: A Chromatic Penciling Style Generation Framework</a></h3>
@@ -177,7 +217,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">An edge-refined vectorized deep colorization model for grayscale-to-color images</a></h3>
@@ -193,7 +233,7 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://changqingzou.weebly.com/uploads/5/9/3/6/59369643/wang_et_al-2017-computer_graphics_forum-min.pdf">L0 Gradient-Preserving Color Transfer</a></h3>
@@ -220,7 +260,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">Data-Driven Image Completion for Complex Object</a></h3>
@@ -236,7 +276,7 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="">基于稀疏结构的复杂物体修复</a></h3>
@@ -272,7 +312,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -321,15 +361,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.22/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
