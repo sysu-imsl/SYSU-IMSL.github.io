@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
@@ -75,14 +75,19 @@
 
 					<section id="sketch">
 						<header class="major">
-							<h2 class="head-zh">草图理解与应用</h2>
+							<h2 class="head-zh">草图生成、理解与应用</h2>
 						</header>
 
                         <p> 平面草图是人们表达自身想法的最简单快捷的方式之一。与彩色自然图像不同，草图图像仅由黑白两色和稀疏线条构成，
                             因此让计算机去理解草图的内容以及其背后传达的思想是当前一个极具挑战性的问题。
                             目前实验室专注于使用机器学习和深度学习的方法，
-                            去解决草图的理解问题（比如草图的语义理解、实例分割）
-                            及其应用的相关问题（比如草图的自动着色、草图的自动合成、草图到自然图像的合成等）。
+                            去解决草图的生成（合成）、理解（比如草图的语义理解、实例分割）
+                            及其应用的相关问题（比如草图的自动着色、草图到自然图像的合成等）。
+                            相关链接：
+                            <br>
+                            1. 草图合成相关工作整理汇总（<a href="https://github.com/MarkMoHR/Awesome-Sketch-Synthesis">https://github.com/MarkMoHR/Awesome-Sketch-Synthesis</a>）
+                            <br>
+                            2. 基于草图的应用相关工作整理汇总（<a href="https://github.com/MarkMoHR/Awesome-Sketch-Based-Applications">https://github.com/MarkMoHR/Awesome-Sketch-Based-Applications</a>）
 
                         </p>
                         <br>
@@ -90,11 +95,14 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/siggraph2021.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/siggraph2021.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://markmohr.github.io/virtual_sketching/">General Virtual Sketching Framework for Vector Line Art</a></h3>
                                     <p>
+                                        Haoran Mo, Edgar Simo-Serra, Chengying Gao<sup>*</sup>, Changqing Zou and Ruomei Wang
+                                        <br>
+                                        <br>
                                         <strong>简介：</strong>
                                         此工作提出了一个能自动学习将多种类型、任意分辨率的图像直接转化为矢量线稿草图的模型。
                                         此模型基于神经网络结构，模仿人类绘画方式，根据输入图像一笔一划地绘制出草图线条，最后得到矢量输出。
@@ -107,6 +115,8 @@
                                         <br>
                                         <em>ACM Transactions on Graphics (Proceedings of ACM <strong>SIGGRAPH</strong> 2021) <strong><font color="#FF0000">(*oral)</font></strong> </em>
                                         <br>
+                                        <a href="https://esslab.jp/publications/HaoranSIGRAPH2021.pdf">[论文]</a>
+                                        <a href="https://github.com/MarkMoHR/virtual_sketching">[代码]</a>
                                         <a href="https://markmohr.github.io/virtual_sketching/">[项目主页]</a>
                                     </p>
                                 </td>
@@ -114,11 +124,14 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://arxiv.org/abs/2003.02683">SketchyCOCO: Image Generation from Freehand Scene Sketches</a></h3>
                                     <p>
+                                        Chengying Gao, Qi Liu, Qi Xu, Jianzhuang Liu, Limin Wang, Changqing Zou*
+                                        <br>
+                                        <br>
                                         <strong>简介：</strong>
                                         论文首次提出了场景级别的手绘草图生成自然图像的算法。首先根据前背景手绘草图构成特性的不同，
                                         提出了依次生成的解决思路。其次，构造了一个手绘草图及其对应自然图像的场景级别数据集。
@@ -141,11 +154,14 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://github.com/SketchyScene/SketchySceneColorization">Language-based Colorization of Scene Sketches</a></h3>
                                     <p>
+                                        Changqing Zou<sup>#</sup>, Haoran Mo<sup>#</sup>(joint first author), Chengying Gao<sup>*</sup>, Ruofei Du and Hongbo Fu
+                                        <br>
+                                        <br>
                                         <strong>简介：</strong>
                                         此工作首次提出用户通过语言指令的人机交互方式实现场景草图自动涂色，
                                         并在此基础上设计与构建了场景级草图自动涂色系统。同时，此工作也首次提出并实现针对场景草图，
@@ -161,11 +177,14 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://sketchyscene.github.io/SketchyScene/">SketchyScene: Richly-Annotated Scene Sketches</a></h3>
                                     <p>
+                                        Changqing Zou<sup>#</sup>, Qian Yu<sup>#</sup>, Ruofei Du, Haoran Mo, Yi-Zhe Song, Tao Xiang, Chengying Gao, Baoquan Chen<sup>*</sup>, and Hao Zhang
+                                        <br>
+                                        <br>
                                         <strong>简介：</strong>
                                         此工作构建了一个大规模的场景草图数据集，并改进现有模型架构来进行语义理解分割实验，作为研究基准。
                                         同时，此工作提出一种专门用于草图数据的背景忽略训练策略，能大幅度提升神经网络对草图的理解能力。
@@ -181,6 +200,71 @@
 
                         </table>
 
+
+					</section>
+
+                    <section id="inpainting">
+						<header class="major">
+							<h2 class="head-zh">图像修复</h2>
+						</header>
+
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/icme2021inpainting.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">Structural Prior Guided Image Inpainting for Complex Scene</a></h3>
+                                    <p>
+                                        Shuxin Wei, Chengying Gao
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        现有基于深度学习的图像修复方法在面对上下文信息丰富的小面积破损区域已取得较好的修复效果，
+                                        然而对复杂场景的大面积破损区域进行修复时往往会产生语义失真、边缘模糊等问题。
+                                        本文将复杂场景的图像修复问题分解为语义分割图修复与语义分割图引导的纹理信息修复两阶段，
+                                        通过特征相关矩阵评估语义分割图与破损图像已知区域之间的相关性，从而完成破损区域的纹理生成。
+                                        <br>
+                                        <br>
+                                        <em>International Conference on Multimedia & Expo (<strong>ICME</strong>)</em>, 2021  <strong><font color="#FF0000">(*oral)</font></strong>
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">基于稀疏结构的复杂物体修复</a></h3>
+                                    <p>
+                                        高成英，徐仙儿，罗燕媚，王栋
+                                        <br>
+                                        <br>
+                                        <em>计算机学报</em>，2019
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">Data-Driven Image Completion for Complex Object</a></h3>
+                                    <p>
+                                        Chengying Gao, Yanmei Luo, Hefeng Wu*, Dong Wang
+                                        <br>
+                                        <br>
+                                        <em>Signal Processing: Image Communication</em>, 2017
+                                        <br>
+                                        <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
 
 					</section>
 
@@ -200,7 +284,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%" class="tdp">
 								    <h3> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">PencilArt: A Chromatic Penciling Style Generation Framework</a></h3>
@@ -236,7 +320,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">An edge-refined vectorized deep colorization model for grayscale-to-color images</a></h3>
@@ -252,7 +336,7 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://changqingzou.weebly.com/uploads/5/9/3/6/59369643/wang_et_al-2017-computer_graphics_forum-min.pdf">L0 Gradient-Preserving Color Transfer</a></h3>
@@ -263,47 +347,6 @@
                                         <em>Computer Graphics Forum (<strong>CGF</strong>)</em>, 2017
                                         <br>
                                         <a href="https://changqingzou.weebly.com/uploads/5/9/3/6/59369643/wang_et_al-2017-computer_graphics_forum-min.pdf">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                        </table>
-
-					</section>
-
-                    <section id="inpainting">
-						<header class="major">
-							<h2 class="head-zh">图像修复</h2>
-						</header>
-
-                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">Data-Driven Image Completion for Complex Object</a></h3>
-                                    <p>
-                                        Chengying Gao, Yanmei Luo, Hefeng Wu*, Dong Wang
-                                        <br>
-                                        <br>
-                                        <em>Signal Processing: Image Communication</em>, 2017
-                                        <br>
-                                        <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="">基于稀疏结构的复杂物体修复</a></h3>
-                                    <p>
-                                        高成英，徐仙儿，罗燕媚，王栋
-                                        <br>
-                                        <br>
-                                        <em>计算机学报</em>，2019
                                     </p>
                                 </td>
                             </tr>
@@ -331,7 +374,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -380,15 +423,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.23/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
