@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
@@ -58,24 +58,25 @@
                     <!--</h2>-->
 
                     <ul class="iconstext">
-                        <li><a href="projects_indoor.html">室内定位</a></li>
-                        <li> </li>
-                        <li><a href="projects_video.html">视频分析</a></li>
-                        <li> </li>
-                        <li><a href="projects_attack.html">图像对抗攻击</a></li>
-                        <li> </li>
-                        <li>图形图像处理</li>
-                        <li> </li>
-						<li><a href="projects_clothes.html">服装建模与虚拟试衣</a></li>
-                        <li> </li>
-                        <li><a href="projects_3Dshape.html">三维渲染与建模</a></li>
+                        <li><a class="mybuttontop" href="projects_indoor.html">室内空间位置智能感知与应用</a></li>
+                        <li><a class="mybuttontop" href="projects_attack.html">面向计算机视觉的人工智能安全分析</a></li>
+                        <li><a class="mybuttonnow">二维/三维图形图像生成、理解与应用</a></li>
+                    </ul>
+                    <br>
+
+                    <ul class="iconstext">
+                        <li><a class="mybuttonlow" href="#sketch">漫画线稿草图生成与应用</a></li>
+                        <li><a class="mybuttonlow" href="#editing_and_synthesis">图像编辑与生成</a></li>
+                        <li><a class="mybuttonlow" href="#npr">图像非真实感渲染</a></li>
+                        <li><a class="mybuttonlow" href="#fashion">服装建模与虚拟试衣</a></li>
+                        <li><a class="mybuttonlow" href="#3d_modeling">三维渲染与建模</a></li>
                     </ul>
 					
 				<!-- Two -->
 
 					<section id="sketch">
 						<header class="major">
-							<h2 class="head-zh">草图生成、理解与应用</h2>
+							<h2 class="head-zh">漫画线稿草图生成与应用</h2>
 						</header>
 
                         <p> 平面草图是人们表达自身想法的最简单快捷的方式之一。与彩色自然图像不同，草图图像仅由黑白两色和稀疏线条构成，
@@ -95,7 +96,7 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/siggraph2021.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/siggraph2021.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://markmohr.github.io/virtual_sketching/">General Virtual Sketching Framework for Vector Line Art</a></h3>
@@ -124,7 +125,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/sketch-cvpr2020.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://arxiv.org/abs/2003.02683">SketchyCOCO: Image Generation from Freehand Scene Sketches</a></h3>
@@ -154,7 +155,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/colorization.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://github.com/SketchyScene/SketchySceneColorization">Language-based Colorization of Scene Sketches</a></h3>
@@ -177,7 +178,7 @@
                             </tr>
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/sketchyscene.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://sketchyscene.github.io/SketchyScene/">SketchyScene: Richly-Annotated Scene Sketches</a></h3>
@@ -203,15 +204,38 @@
 
 					</section>
 
-                    <section id="inpainting">
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="editing_and_synthesis">
 						<header class="major">
-							<h2 class="head-zh">图像修复</h2>
+							<h2 class="head-zh">图像编辑与生成</h2>
 						</header>
+
+                        <p>
+                            实验室关注图像修复、颜色复原和颜色迁移等图像编辑与生成研究方向。
+                            <p class="margin-small">&nbsp;</p>
+                            <strong>图像修复</strong>：指将图像中缺失的部分进行自动补全。
+                            目前实验室专注于使用深度学习的方式提出图像修复算法。
+                            <br>
+                            <strong>颜色复原</strong>：指将灰度图像自动转化为彩色图像。当前颜色复原问题受到很多研究者的关注，因为其应用场景很广，
+                            比如可以将黑白老照片、年代久远的黑白电影转化为带有颜色的影像，使经典作品以更生动的形象展现在我们面前。
+                            目前实验室专注于使用深度学习的方式从大量数据中学习颜色转化的方法。
+                            <br>
+                            <strong>颜色迁移</strong>：指将目标颜色色调迁移到给定的原始图像，同时保持整体图像的合理性。
+                            颜色迁移问题能应用到艺术创作等领域中。
+                            实验室目前专注于使用数字图像处理和数据统计分析的混合方法来解决此问题。
+                            <p class="margin-small">&nbsp;</p>
+                            相关链接：图像上色、颜色复原相关工作整理汇总（<a href="https://github.com/MarkMoHR/Awesome-Image-Colorization">https://github.com/MarkMoHR/Awesome-Image-Colorization</a>）
+
+                        </p>
+                        <br>
 
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/icme2021inpainting.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/icme2021inpainting.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="">Structural Prior Guided Image Inpainting for Complex Scene</a></h3>
@@ -234,7 +258,7 @@
 
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/jisuanjixuebao19.jpg" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="">基于稀疏结构的复杂物体修复</a></h3>
@@ -246,10 +270,27 @@
                                     </p>
                                 </td>
                             </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">An edge-refined vectorized deep colorization model for grayscale-to-color images</a></h3>
+                                    <p>
+                                        Zhuo Su, Xiangguo Liang, Jiaming Guo, Chengying Gao, Xiaonan Luo
+                                        <br>
+                                        <br>
+                                        <em>Neurocomputing</em>, 2018
+                                        <br>
+                                        <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
                             
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/spic17.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0923596517300772">Data-Driven Image Completion for Complex Object</a></h3>
@@ -264,79 +305,9 @@
                                 </td>
                             </tr>
 
-                        </table>
-
-					</section>
-
-                    <section id="pencil_art">
-						<header class="major">
-							<h2 class="head-zh">非真实感渲染</h2>
-						</header>
-
-                        <p> 非真实感渲染旨在利用计算机模拟现实中存在的各种不同艺术形式的绘制风格（铅笔、水彩、卡通、国画和油画等）。
-                            实验室专注于研究结合传统方法与深度学习方法，探索各种不同艺术形式的非真实感渲染算法。
-                            其中，彩铅画是一种特殊形式的非真实感渲染方式，如何准确地表达出彩铅画中独特的色彩特性和纹理效果，
-                            从而使生成出的风格兼顾真实感与美观性，是一个具有较大挑战性的问题。
-
-                        </p>
-                        <br>
-
-                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%" class="tdp">
-								    <h3> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">PencilArt: A Chromatic Penciling Style Generation Framework</a></h3>
-                                    <p>
-                                        Chengying Gao, Mengyue Tang, Xiangguo Liang, Zhou Su, Changqing Zou
-                                        <br>
-                                        <br>
-                                        <em>Computer Graphics Forum (<strong>CGF</strong>)</em>, 2018
-                                        <br>
-                                        <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                        </table>
-					</section>
-
-                    <section id="color-transfer">
-						<header class="major">
-							<h2 class="head-zh">颜色复原与颜色迁移</h2>
-						</header>
-
-                        <p> 颜色复原指将灰度图像自动转化为彩色图像。当前颜色复原问题受到很多研究者的关注，因为其应用场景很广，
-                            比如可以将黑白老照片、年代久远的黑白电影转化为带有颜色的影像，使经典作品以更生动的形象展现在我们面前。
-                            目前实验室专注于使用深度学习的方式从大量数据中学习颜色转化的方法。
-                            <br>
-                            颜色迁移指将目标颜色色调迁移到给定的原始图像，同时保持整体图像的合理性。颜色迁移问题能应用到艺术创作等领域中。
-                            实验室目前专注于使用数字图像处理和数据统计分析的混合方法来解决此问题。
-
-                        </p>
-                        <br>
-
-                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/Neurocomputing18.jpg" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">An edge-refined vectorized deep colorization model for grayscale-to-color images</a></h3>
-                                    <p>
-                                        Zhuo Su, Xiangguo Liang, Jiaming Guo, Chengying Gao, Xiaonan Luo
-                                        <br>
-                                        <br>
-                                        <em>Neurocomputing</em>, 2018
-                                        <br>
-                                        <a href="https://www.sciencedirect.com/science/article/pii/S0925231218306672">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/color-transfer.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
 								    <h3> <a href="https://changqingzou.weebly.com/uploads/5/9/3/6/59369643/wang_et_al-2017-computer_graphics_forum-min.pdf">L0 Gradient-Preserving Color Transfer</a></h3>
@@ -357,6 +328,209 @@
 
                     <div align="right">
                         <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="npr">
+						<header class="major">
+							<h2 class="head-zh">图像非真实感渲染</h2>
+						</header>
+
+                        <p> 非真实感渲染旨在利用计算机模拟现实中存在的各种不同艺术形式的绘制风格（铅笔、水彩、卡通、国画和油画等）。
+                            实验室专注于研究结合传统方法与深度学习方法，探索各种不同艺术形式的非真实感渲染算法。
+                            其中，彩铅画是一种特殊形式的非真实感渲染方式，如何准确地表达出彩铅画中独特的色彩特性和纹理效果，
+                            从而使生成出的风格兼顾真实感与美观性，是一个具有较大挑战性的问题。
+
+                        </p>
+                        <br>
+
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/pencil-art.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%" class="tdp">
+								    <h3> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">PencilArt: A Chromatic Penciling Style Generation Framework</a></h3>
+                                    <p>
+                                        Chengying Gao, Mengyue Tang, Xiangguo Liang, Zhou Su, Changqing Zou
+                                        <br>
+                                        <br>
+                                        <em>Computer Graphics Forum (<strong>CGF</strong>)</em>, 2018
+                                        <br>
+                                        <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13334">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+					</section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="fashion">
+                        <header class="major">
+							<h2 class="head-zh">服装建模与虚拟试衣</h2>
+						</header>
+
+                        <p> 三维服装建模和虚拟试衣在服装制造、影视娱乐和虚拟现实等领域具有广泛的应用，引起了国内外学者的广泛关注。
+                            然而由于服装材料、款式及人体体型的多样性和复杂性等问题，目前仍面临着巨大的挑战。
+                            近年来实验室专注于服装设计过程中的快速建模和2D、3D的虚拟服装展示算法，
+                            并在虚拟试衣和三维服装建模方面取得一些研究成果。
+
+                        </p>
+                        <br>
+
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/fashionGAN.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13552">FashionGAN: Display your fashion design using Conditional Generative Adversarial Nets</a></h3>
+                                    <p>	Yirui Cui, Qi Liu, Chengying Gao*, Zhuo Su
+                                        <br>
+                                        <br>
+                                        <em>Computer Graphics Forum (Proceedings of <strong>Pacific Graphics</strong> 2018) <strong><font color="#FF0000">(*oral)</font></strong></em>
+                                        <br>
+                                        <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13552">[论文]</a>
+                                        <a href="https://github.com/Cuiyirui/FashionGAN">[代码]</a>
+										<a href="https://drive.google.com/drive/folders/1DACqCXlJRQxRysO6RVNO7vOoR8YzrjTQ?usp=sharing">[数据集]</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/pcm18.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-00776-8_25">Automatic 3D Garment Fitting Based on Skeleton Driving</a></h3>
+                                    <p> Haozhong Cai, Guangyuan Shi, Chengying Gao*, Dong Wang
+                                        <br>
+                                        <br>
+                                        <em>Pacific-Rim Conference on Multimedia (<strong>PCM</strong>) <strong><font color="#FF0000">(*oral)</font></strong></em>, 2018
+                                        <br>
+                                        <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-00776-8_25">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/pg14.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://diglib.eg.org/handle/10.2312/pgs.20141250.043-048">Automatic Garment Modeling From Front And Back Images</a></h3>
+                                    <p>	Lifeng Huang, Chengying Gao*
+                                        <br>
+                                        <br>
+                                        <em>Pacific Graphics (<strong>PG</strong>)</em>, 2014
+                                        <br>
+                                        <a href="https://diglib.eg.org/handle/10.2312/pgs.20141250.043-048">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+					<section id="3d_modeling">
+                        <header class="major">
+							<h2 class="head-zh">三维渲染与建模</h2>
+						</header>
+                        <p>
+                            实验室关注基于窄带的快速流体表面重建和织物建模与渲染等三维渲染与建模研究方向。
+                            <p class="margin-small">&nbsp;</p>
+                            <strong>基于窄带的快速流体表面重建</strong>：流体表面网格的重建介于流体模拟和流体渲染之间，
+                            重建出来的流体网格质量与最终渲染效果有着极其密切的关系。
+							在当前有限的算力前提下，如何在尽可能保证网格质量的同时加快重建效率是一个非常具有挑战性的难题。
+                            <br>
+                            <strong>织物建模与渲染</strong>：织物是虚拟世界中不可或缺的一部分。
+                            基于纤维的纱线几何结构可以极大地还原织物种类的多样性和结构的复杂性，对织物的真实感渲染起着至关重要的作用。
+                            然而纤维带来大量的微观细节，这使得庞大的织物模型只能在动画制作、电影特效等离线渲染领域中得以运用，
+                            而无法满足电子游戏等实时渲染的需求。近年来实验室专注于找到一种高质量、全自动的三角网格模型到纱线模型的转换算法，
+                            进而使用基于微观模型的织物实时渲染算法对纱线模型进行展示，以模拟出织物纤维级别的细节特征。
+
+                        </p>
+                        <br>
+
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/cgi2020.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%" class="tdp">
+								    <h3> <a href="https://link.springer.com/article/10.1007/s00371-020-01898-2">A Completely Parallel Surface Reconstruction Method for Particle-Based Fluids</a></h3>
+                                    <p>
+                                        Wencong Yang, Chengying Gao
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        本文首先提出了一种快速、简单、极其准确的流体表面的窄带方法，使得表面重建算法（例如Marching Cube）
+										能够准确地定位到有效的流体表面区域，极大地避免了无用的计算过程。
+										同时，我们分析了重建过程潜在的数据竞争和条件分支，利用互斥前缀和算法，
+										将整个流体表面重建的过程完全并行化，大大加快了表面重建的效率。
+                                        <br>
+                                        <br>
+                                        <em>Computer Graphics International (<strong>CGI</strong>) </em>, 2020
+                                        <br>
+                                        <a href="https://link.springer.com/article/10.1007/s00371-020-01898-2">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/fabric-model.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%" class="tdp">
+								    <h3> <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/docs/fabric-model.pdf">全自动的纱线模型生成算法</a></h3>
+                                    <p>
+										张泽坤
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        算法可以自动地将三角网格模型转化为纱线模型。
+                                        但算法存在模型适用范围较小、特定类型纱线模型质量较差等缺点，目前正在研究如何解决这些问题。
+                                        若问题得以解决，有望改进、简化当前织物工业化生产的设计流程，提高生产效率。
+                                        <br>
+                                        <br>
+                                        <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/docs/fabric-model.pdf">[详细介绍 (PPT)]</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/projects/fabric-render.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%" class="tdp">
+								    <h3> <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/docs/fabric-render.pdf">基于微观模型的织物实时渲染算法</a></h3>
+                                    <p>
+										罗幸荣
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        纤维级织物，是指在纤维级微观尺度下进行建模的织物。
+                                        它将织物表示成大量纤维的集合，显式地描述了纤维、单纱以及纱线的相对几何关系。
+                                        算法使用核心纤维面片来对单纱中规律缠绕的纤维进行替代，从而减小实时光栅化带来的性能开销，
+                                        并与常规纤维相结合，使得能够在可交互的帧率下对纤维级织物进行渲染。
+                                        <br>
+                                        <br>
+                                        <a href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/docs/fabric-render.pdf">[详细介绍 (PPT)]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
                         <br>
                         <p> &nbsp; </p>
                     </div>
@@ -374,7 +548,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -423,15 +597,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.26/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.27/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
