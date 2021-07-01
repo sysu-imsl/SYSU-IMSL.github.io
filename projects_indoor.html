@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>智能与多媒体科学实验室</title>
-		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/logo.png">
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/logo.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="sysuimsl" content="智能与多媒体科学实验室" />
@@ -56,13 +56,16 @@
                     <br>
 
                     <ul class="iconstext">
-                        <li><a class="mybuttonlow" href="#indoor">多模态室内定位</a></li>
+                        <li><a class="mybuttonlow" href="#visual">视觉定位</a></li>
+                        <li><a class="mybuttonlow" href="#geomagnetic">地磁定位</a></li>
+                        <li><a class="mybuttonlow" href="#wifi">Wi-Fi指纹定位</a></li>
+                        <li><a class="mybuttonlow" href="#multimodal">多特征融合定位</a></li>
+                        <li><a class="mybuttonlow" href="#fingerprint">指纹数据库增量重建</a></li>
                     </ul>
 					
-
-                    <section id="indoor">
+                    <section id="intro" style="padding-bottom: 0px;">
                         <header class="major">
-							<h2 class="head-zh">多模态室内定位</h2>
+							<h2 class="head-zh">简介</h2>
 						</header>
 
 						<p> 精准的室内定位技术对于安防、医疗和商业等领域具有重要的意义。
@@ -81,7 +84,6 @@
                         </p>
                         <br>
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                            <h3>多模态融合定位系统演示视频</h3>
                             <tr>
                                 <td width="50%" align="center">
                                     <iframe src="https://player.bilibili.com/player.html?aid=546072930&bvid=BV1yq4y1576T&cid=351643978&page=1&high_quality=1" frameborder="no" scrolling="no" width="100%" height="600"></iframe>
@@ -91,101 +93,21 @@
                                 </td>
                             </tr>
                         </table>
+                    </section>
+                    <section id="visual">
+                        <header class="major">
+							<h2 class="head-zh">视觉定位</h2>
+						</header>
+
+						<p>
+                            商业地产场景中存在大量视觉信息，如店铺招牌，海报，张贴画等等。这些随处可见的视觉信息为室内定位提供了丰富的特征。
+                            然而，许多基于视觉的定位研究存在操作复杂，定位精度低的缺点，阻碍了视觉定位的应用。
+                            针对以上问题，本团队基于场地中已有的视觉信息，结合传感器与场地结构约束，进行易操作和高精度定位。
+                            在商场和美食广场的大规模实验结果显示，所研究方法具有较高的精度。
+
+                        </p>
+                        <br>
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/ubicomp2020.jpg" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://dl.acm.org/doi/abs/10.1145/3397335">MAIL: Multi-Scale Attention-Guided Indoor Localization Using Geomagnetic Sequences</a></h3>
-                                    <p>
-                                        Qun Niu, Tao He, Ning Liu, Suining He, Xiaonan Luo, Fan Zhou
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        针对室内地磁扰动尺度多样性的问题，研究了基于尺度的地磁时序特征提取算法；
-                                        针对各尺度时序特征对位置特征贡献冷热不均的问题，设计了注意力权值生成模型，自适应的估计权值；
-                                        在权值引导下，进行多尺度地磁特征的构造与定位。
-                                        <br>
-                                        <br>
-                                        <em>Interactive, Mobile, Wearable and Ubiquitous Technologies (<strong>IMWUT/UbiComp</strong>)</em>, 2020
-                                        <br>
-                                        <a href="https://dl.acm.org/doi/abs/10.1145/3397335">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/deepnavi.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://dl.acm.org/citation.cfm?doid=3361560.3351257">DeepNavi: A Deep Signal-Fusion Framework for Accurate and Applicable Indoor Navigation</a></h3>
-                                    <p>
-                                        Qun Niu, Ning Liu*, Jianjun Huang, Yangze Luo, Suining He, Tao He, S.-H. Chan and Xiaonan Luo
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        一个通用的基于特征融合和深度学习的室内导航系统，DeepNavi。
-                                        DeepNavi具有广泛的适用性，能够融合不同的互补的信号以适应不同的场地，也能够适应不同的导航模式
-                                        （既能处理瞬时输入也能处理序列输入），进行准确的定位导航。
-                                        <br>
-                                        <br>
-                                        <em>Interactive, Mobile, Wearable and Ubiquitous Technologies (<strong>IMWUT/UbiComp</strong>)</em>, 2019
-                                        <br>
-                                        <a href="https://dl.acm.org/citation.cfm?doid=3361560.3351257">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/Maxlifd.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://ieeexplore.ieee.org/document/8368248">Maxlifd: Joint Maximum Likelihood Localization Fusing Fingerprints and Mutual Distances</a></h3>
-                                    <p>
-                                        Suining He, S.-H. Gary Chan, Lei Yu and Ning Liu*
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        基于指纹的室内定位算法往往可以通过融合指纹和指纹之间的相互距离信息来提升定位精度，
-                                        考虑到指纹和距离信息的测量本质上随机，
-                                        本文提出了一种利用极大似然融合指纹和随机分布的距离信息的精确室内定位框架——Maxlifd。
-                                        同时考虑指纹特征和相互距离信息，并通过一种创新的优化算法，Maxlifd可以实现较低的定位误差。
-                                        <br>
-                                        <br>
-                                        <em>IEEE Transactions on Mobile Computing (<strong>TMC</strong>)</em>, 2019
-                                        <br>
-                                        <a href="https://ieeexplore.ieee.org/document/8368248">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/GLOBECOM19.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://ieeexplore.ieee.org/abstract/document/9014159">Indoor Localization with Spatial and Temporal Representations of Signal Sequences</a></h3>
-                                    <p>
-                                        Tao He, Qun Niu, Suining He and Ning Liu
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        针对不同的室内场景，不同维度下的定位信号特征往往有着不同的定位效果，
-                                        为了进一步提高定位精度并实现对多场景的适应性，
-                                        本文提出了一种基于序列信号不同维度下（时间、空间维度）融合特征的定位算法——ST-Loc。
-                                        该方法将序列信号转化为不同维度下的数据表示，并分别应用特定的网络进行特征提取，
-                                        基于多维度下的融合特征实现精准的室内定位。
-                                        <br>
-                                        <br>
-                                        <em>IEEE Global Communications Conference (<strong>GLOBECOM</strong>)</em>, 2019
-                                        <br>
-                                    </p>
-                                </td>
-                            </tr>
-
                             <tr>
                                 <td width="30%">
 								    <img src="https://pic1.zhimg.com/v2-e3bdac2e2af549f3e7d5f8ad93e25a8e_1200x500.jpg" alt="" width="100%" border="1"/>
@@ -206,57 +128,6 @@
                                         <br>
 										<a href="https://zhuanlan.zhihu.com/p/53565561">[详细介绍]</a>
                                         <a href="https://dl.acm.org/citation.cfm?id=3284555">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/slac.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="http://ieeexplore.ieee.org/document/8052139/">SLAC: Calibration-Free Pedometer-Fingerprint Fusion for Indoor Localization</a></h3>
-                                    <p>
-                                        Suining He, S.-H. Gary Chan, Lei Yu and Ning Liu*
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        随着计步器等运动传感器的普及，运动信息越来越多的被融合到一些基于指纹的定位算法中，
-                                        但是却面临着用户、设备异构性问题。针对这一问题，
-                                        本文提出了一个免标定、融合计步器和指纹的室内定位系统——SLAC。
-                                        SLAC解决了不同传感器、定位信号、用户的标定问题，实现对用户、设备异构的免标定，
-                                        同时在此基础上实现高效精准的定位。
-                                        <br>
-                                        <br>
-                                        <em>IEEE Transactions on Mobile Computing (<strong>TMC</strong>)</em>, 2018
-                                        <br>
-                                        <a href="http://ieeexplore.ieee.org/document/8052139/">[论文]</a>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="30%">
-								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/projects/recnet.png" alt="" width="100%" border="1"/>
-                                </td>
-                                <td width="70%">
-								    <h3> <a href="https://ieeexplore.ieee.org/document/8422971">RecNet: A Convolutional Network for Efficient Radiomap Reconstruction</a></h3>
-                                    <p>
-                                        Q. Niu, Y. Nie, S. He, N. Liu and X. Luo
-                                        <br>
-                                        <br>
-                                        <strong>简介：</strong>
-                                        基于Wi-Fi指纹的室内定位技术，
-                                        由于Wi-Fi信号强度会受路由器的功率调节或室内环境变化等因素影响导致的指纹变化，
-                                        指纹地图的变化会大幅度影响室内定位精度与稳定性。
-                                        针对于此，本文提出用于细粒度指纹地图重建的神经网络RecNet，
-                                        它借鉴了图像超分辨率的思路（细粒度指纹地图和粗粒度指纹地图可以分别对应高分辨率和低分辨率的图像表示），
-                                        该网络只需要少量的新指纹数据作为输入进行指纹地图更新。
-                                        <br>
-                                        <br>
-                                        <em>IEEE International Conference on Communications (<strong>ICC</strong>)</em>, 2018
-                                        <br>
-                                        <a href="https://ieeexplore.ieee.org/document/8422971">[论文]</a>
                                     </p>
                                 </td>
                             </tr>
@@ -291,6 +162,235 @@
 
                     <div align="right">
                         <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="geomagnetic">
+                        <header class="major">
+							<h2 class="head-zh">地磁定位</h2>
+						</header>
+
+						<p>
+                            地球磁场由地球产生，在室内场景中普遍存在。加之室内存在较多的铁磁性物体干扰，增加了地磁强度的扰动，使得地磁定位成为可能。
+                            然后，地磁信号空间区分度较低，铁磁性干扰源分布较为稀疏，导致地磁位置特征区分度不足，进而降低定位精度。
+                            <br>
+                            针对以上问题，项目组研究了基于地磁序列的精准定位算法。分别研究了基于地磁序列时空表征的定位算法和多尺度注意力引导的地磁序列定位算法。
+                            项目组在实验室和地下停车场中进行了大量实验，证明了提出算法在测试场景中的有效性。
+
+                        </p>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/ubicomp2020.jpg" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://dl.acm.org/doi/abs/10.1145/3397335">MAIL: Multi-Scale Attention-Guided Indoor Localization Using Geomagnetic Sequences</a></h3>
+                                    <p>
+                                        Qun Niu, Tao He, Ning Liu, Suining He, Xiaonan Luo, Fan Zhou
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        针对室内地磁扰动尺度多样性的问题，研究了基于尺度的地磁时序特征提取算法；
+                                        针对各尺度时序特征对位置特征贡献冷热不均的问题，设计了注意力权值生成模型，自适应的估计权值；
+                                        在权值引导下，进行多尺度地磁特征的构造与定位。
+                                        <br>
+                                        <br>
+                                        <em>Interactive, Mobile, Wearable and Ubiquitous Technologies (<strong>IMWUT/UbiComp</strong>)</em>, 2020
+                                        <br>
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3397335">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/GLOBECOM19.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://ieeexplore.ieee.org/abstract/document/9014159">Indoor Localization with Spatial and Temporal Representations of Signal Sequences</a></h3>
+                                    <p>
+                                        Tao He, Qun Niu, Suining He and Ning Liu
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        针对不同的室内场景，不同维度下的定位信号特征往往有着不同的定位效果，
+                                        为了进一步提高定位精度并实现对多场景的适应性，
+                                        本文提出了一种基于序列信号不同维度下（时间、空间维度）融合特征的定位算法——ST-Loc。
+                                        该方法将序列信号转化为不同维度下的数据表示，并分别应用特定的网络进行特征提取，
+                                        基于多维度下的融合特征实现精准的室内定位。
+                                        <br>
+                                        <br>
+                                        <em>IEEE Global Communications Conference (<strong>GLOBECOM</strong>)</em>, 2019
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="wifi">
+                        <header class="major">
+							<h2 class="head-zh">Wi-Fi指纹定位</h2>
+						</header>
+
+						<p>
+                            Wi-Fi路由器在室内场景中大量部署，基于Wi-Fi指纹的定位算法在学术界和产业界皆获得了广泛关注。
+                            然而，由于信号多径效应及信号衰减，现有基于Wi-Fi指纹的定位方法在室内场景中难以取得稳定的定位精度。
+                            <br>
+                            针对以上问题，项目组分别研究了结合计步器的Wi-Fi指纹定位算法和距离约束的定位算法，同时考虑设备和用户差异并进行精准定位。
+                            大量实验结果证明了所提出算法的有效性。
+
+                        </p>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/Maxlifd.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://ieeexplore.ieee.org/document/8368248">Maxlifd: Joint Maximum Likelihood Localization Fusing Fingerprints and Mutual Distances</a></h3>
+                                    <p>
+                                        Suining He, S.-H. Gary Chan, Lei Yu and Ning Liu*
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        基于指纹的室内定位算法往往可以通过融合指纹和指纹之间的相互距离信息来提升定位精度，
+                                        考虑到指纹和距离信息的测量本质上随机，
+                                        本文提出了一种利用极大似然融合指纹和随机分布的距离信息的精确室内定位框架——Maxlifd。
+                                        同时考虑指纹特征和相互距离信息，并通过一种创新的优化算法，Maxlifd可以实现较低的定位误差。
+                                        <br>
+                                        <br>
+                                        <em>IEEE Transactions on Mobile Computing (<strong>TMC</strong>)</em>, 2019
+                                        <br>
+                                        <a href="https://ieeexplore.ieee.org/document/8368248">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/slac.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="http://ieeexplore.ieee.org/document/8052139/">SLAC: Calibration-Free Pedometer-Fingerprint Fusion for Indoor Localization</a></h3>
+                                    <p>
+                                        Suining He, S.-H. Gary Chan, Lei Yu and Ning Liu*
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        随着计步器等运动传感器的普及，运动信息越来越多的被融合到一些基于指纹的定位算法中，
+                                        但是却面临着用户、设备异构性问题。针对这一问题，
+                                        本文提出了一个免标定、融合计步器和指纹的室内定位系统——SLAC。
+                                        SLAC解决了不同传感器、定位信号、用户的标定问题，实现对用户、设备异构的免标定，
+                                        同时在此基础上实现高效精准的定位。
+                                        <br>
+                                        <br>
+                                        <em>IEEE Transactions on Mobile Computing (<strong>TMC</strong>)</em>, 2018
+                                        <br>
+                                        <a href="http://ieeexplore.ieee.org/document/8052139/">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="multimodal">
+                        <header class="major">
+							<h2 class="head-zh">多特征融合定位</h2>
+						</header>
+
+						<p>
+                            针对单一信号在复杂场景中存在特征不足和定位误差大的问题，项目组研究了基于特征融合的定位算法。
+                            通过循环神经网络从瞬时信号及序列信号中提取信号特征，基于集成学习融合多模型预测结果，有效提升定位精度。
+                        </p>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/deepnavi.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://dl.acm.org/citation.cfm?doid=3361560.3351257">DeepNavi: A Deep Signal-Fusion Framework for Accurate and Applicable Indoor Navigation</a></h3>
+                                    <p>
+                                        Qun Niu, Ning Liu*, Jianjun Huang, Yangze Luo, Suining He, Tao He, S.-H. Chan and Xiaonan Luo
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        一个通用的基于特征融合和深度学习的室内导航系统，DeepNavi。
+                                        DeepNavi具有广泛的适用性，能够融合不同的互补的信号以适应不同的场地，也能够适应不同的导航模式
+                                        （既能处理瞬时输入也能处理序列输入），进行准确的定位导航。
+                                        <br>
+                                        <br>
+                                        <em>Interactive, Mobile, Wearable and Ubiquitous Technologies (<strong>IMWUT/UbiComp</strong>)</em>, 2019
+                                        <br>
+                                        <a href="https://dl.acm.org/citation.cfm?doid=3361560.3351257">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
+                    </div>
+
+                    <section id="fingerprint">
+                        <header class="major">
+							<h2 class="head-zh">指纹数据库增量重建</h2>
+						</header>
+
+						<p>
+                            在长期部署中，室内路由器由于功率变化，遮挡等因素影响，导致Wi-Fi指纹发生变化，降低定位精度。由此引发定位指纹数据库的更新耗时费力。
+                            项目组将离散的指纹转换为信号强度热力图，基于稀疏采集的指纹构造低分辨率热力图，基于超分辨率重建的思路设计高、低分辨率指纹数据库映射模型，
+                            通过稀疏采集的指纹更新指纹数据库，降低指纹数据库的维护成本。
+                        </p>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+
+                            <tr>
+                                <td width="30%">
+								    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/projects/recnet.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://ieeexplore.ieee.org/document/8422971">RecNet: A Convolutional Network for Efficient Radiomap Reconstruction</a></h3>
+                                    <p>
+                                        Q. Niu, Y. Nie, S. He, N. Liu and X. Luo
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        基于Wi-Fi指纹的室内定位技术，
+                                        由于Wi-Fi信号强度会受路由器的功率调节或室内环境变化等因素影响导致的指纹变化，
+                                        指纹地图的变化会大幅度影响室内定位精度与稳定性。
+                                        针对于此，本文提出用于细粒度指纹地图重建的神经网络RecNet，
+                                        它借鉴了图像超分辨率的思路（细粒度指纹地图和粗粒度指纹地图可以分别对应高分辨率和低分辨率的图像表示），
+                                        该网络只需要少量的新指纹数据作为输入进行指纹地图更新。
+                                        <br>
+                                        <br>
+                                        <em>IEEE International Conference on Communications (<strong>ICC</strong>)</em>, 2018
+                                        <br>
+                                        <a href="https://ieeexplore.ieee.org/document/8422971">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </section>
+
+                    <div align="right">
+                        <a href="#">Back to top</a>
                         <br>
                         <p> &nbsp; </p>
                     </div>
@@ -308,7 +408,7 @@
 									<!--<input type="text" name="query" id="query" placeholder="Search" />-->
 								<!--</form>-->
                                 <div style="text-align:center" >
-                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/files/images/logo2.png" alt="" width="100%"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/files/images/logo2.png" alt="" width="100%"/>
                                 </div>
 							</section>
 
@@ -357,15 +457,15 @@
 								</header>
 								<div class="mini-posts">
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/images/pic07.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/images/pic08.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/images/pic08.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.28/images/pic09.jpg" alt="" /></a>
+										<a href="#" class="image"><img src="https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-IMSL@1.29/images/pic09.jpg" alt="" /></a>
 										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
 									</article>
 								</div>
