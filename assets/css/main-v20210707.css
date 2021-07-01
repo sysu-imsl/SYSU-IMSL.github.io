@@ -183,13 +183,13 @@ input, select, textarea {
             padding:8px 10px 8px 10px;
             margin:0;
             color:#fff;
-            background-color:#f56a6a;
+            background-color:#bfbfbf;
             border-radius:10px;
         }
 
             a.mybuttontop:hover {
                 color: #fff !important;
-                background-color:#b83737;
+                background-color:#f68585;
             }
 
         a.mybuttonnow {
@@ -200,7 +200,7 @@ input, select, textarea {
             padding:8px 10px 8px 10px;
             margin:0;
             color:#fff;
-            background-color:#8c8c8c;
+            background-color:#f56a6a;
             border-radius:10px;
         }
 
