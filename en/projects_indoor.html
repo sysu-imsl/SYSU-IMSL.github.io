@@ -72,10 +72,10 @@
 			            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td width="50%" align="center">
-                                    <iframe src="https://player.bilibili.com/player.html?aid=546072930&bvid=BV1yq4y1576T&cid=351643978&page=1&high_quality=1" frameborder="no" scrolling="no" width="100%" height="600"></iframe>
+                                    <iframe class="bilibili" src="https://player.bilibili.com/player.html?aid=546072930&bvid=BV1yq4y1576T&cid=351643978&page=1&high_quality=1" frameborder="no" scrolling="no" width="100%"></iframe>
                                 </td>
                                 <td width="50%" align="center">
-                                    <iframe src="https://player.bilibili.com/player.html?aid=291003088&bvid=BV11f4y1b7Qo&cid=351647112&page=1&high_quality=1" frameborder="no" scrolling="no" width="100%" height="600"></iframe>
+                                    <iframe class="bilibili" src="https://player.bilibili.com/player.html?aid=291003088&bvid=BV11f4y1b7Qo&cid=351647112&page=1&high_quality=1" frameborder="no" scrolling="no" width="100%"></iframe>
                                 </td>
                             </tr>
                         </table>
@@ -408,6 +408,13 @@
         <!-- push the page to Baidu -->
 		<script>
 		(function(){
+		    // modify the height of iframe
+		    var iframe = document.getElementsByClassName('bilibili');
+		    for (let index = 0; index < 2; index++) {
+			var wid = iframe[index].offsetWidth;
+			wid += "px";
+			iframe[index].style.height = wid;
+		    }
 		    var bp = document.createElement('script');
 		    var curProtocol = window.location.protocol.split(':')[0];
 		    if (curProtocol === 'https'){
