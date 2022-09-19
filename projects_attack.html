@@ -94,6 +94,37 @@
                         <br>
 
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="./files/images/projects/DEFEAT.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://github.com/mesunhlf/DEFEAT">DEFEAT: Decoupled Feature Attack Across Deep Neural Networks</a></h3>
+                                    <p>
+										Lifeng Huang, Chengying Gao, Ning Liu
+										<br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        对抗性攻击对深度神经网络构成了安全挑战，促使研究人员建立各种防御方法。
+                                        因此，黑盒攻击在防御场景下性能下降。一个重要的观察结果是，一些特征级攻击在欺骗没有防御机制的模型的场景中成功率很高，
+                                        而在遇到防御机制时它们的可迁移性会严重下降，这会给人一种虚假的安全感。
+                                        在本文中，我们解释造成这种现象的一个可能原因是域过拟合效应，它会降低特征扰动图像的跨域迁移能力，
+                                        使它们很难欺骗对抗性训练防御。为此，我们研究了一种新颖的特征级方法，称为解耦特征攻击（DEFEAT）。
+                                        与当前分别估计梯度估计并更新扰动的循环模式攻击方法不同，DEFEAT 将对抗样本生成过程和扰动对抗优化过程二者进行解耦。
+                                        在第一阶段，DEFEAT 学习一个充满了具有高对抗效应的扰动的分布。
+                                        然后在第二阶段，它迭代地从学习到的分布中随机采样，组成迁移对抗样本。
+                                        最重要的是，我们可以将现有的增强变换技术应用到 DEFEAT 框架中，以产生更强大的对抗扰动。
+                                        我们还提供了对可迁移性和模型潜在特征之间关系的分析，这有助于社区了解对抗性攻击的内在机制。
+                                        在多种黑盒防御模型上评估的大量实验表明了 DEFEAT 有效缓解域过拟合线下，比现有方法拥有更强的性能。
+                                        <br>
+                                        <br>
+                                        <em>Neural Networks, 2022 &nbsp;<strong><font color="#FF0000">(中科院 2区/CCF-B)</font></strong></em>
+                                        <br>
+                                        <a href="https://github.com/mesunhlf/DEFEAT">[代码]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
 							<tr>
                                 <td width="30%">
 								    <img src="./files/images/projects/attack-pr2022.jpg" alt="" width="100%" border="1"/>
@@ -115,7 +146,7 @@
                                         在各种模型上进行的大量实验不仅验证了每个设计算法在 CA2中的有效性，而且还说明了我们的方法与现有迁移对抗攻击相比的优越性。
                                         <br>
                                         <br>
-                                        <em>Pattern Recognition (<strong>PR</strong>)</em>, 2022
+                                        <em>Pattern Recognition (<strong>PR</strong>), 2022 &nbsp;<strong><font color="#FF0000">(中科院 2区/CCF-B)</font></strong></em>
                                         <br>
                                         <a href="https://www.sciencedirect.com/science/article/pii/S0031320322003120?dgcid=coauthor">[论文]</a>
                                         <a href="https://github.com/mesunhlf/CA2">[代码]</a>

@@ -67,6 +67,40 @@
 						</header>
 
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="../files/images/projects/DEFEAT.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://github.com/mesunhlf/DEFEAT">DEFEAT: Decoupled Feature Attack Across Deep Neural Networks</a></h3>
+                                    <p>
+										Lifeng Huang, Chengying Gao, Ning Liu
+										<br>
+                                        <br>
+                                        <strong>Intro: </strong>
+                                        Adversarial attacks pose a security challenge for deep neural networks, motivating researchers to build various defense methods.
+                                        Consequently, the performance of black-box attacks turns down under defense scenarios.
+                                        A significant observation is that some feature-level attacks achieve an excellent success rate to fool undefended models,
+                                        while their transferability is severely degraded when encountering defenses, which give a false sense of security.
+                                        In this paper, we explain one possible reason caused this phenomenon is the domain-overfitting effect,
+                                        which degrades the capabilities of feature perturbed images and makes them hardly fool adversarially trained defenses.
+                                        To this end, we study a novel feature-level method, referred to as Decoupled Feature Attack (DEFEAT).
+                                        Unlike the current attacks that use a round-robin procedure to estimate gradient estimation and update perturbation,
+                                        DEFEAT decouples adversarial example generation from the optimization process.
+                                        In the first stage, DEFEAT learns a distribution full of perturbations with high adversarial effects.
+                                        And it then iteratively samples the noises from learned distribution to assemble adversarial examples.
+                                        On top of that, we can apply transformations of existing methods into the DEFEAT framework to produce more robust perturbations.
+                                        We also provide insights into the relationship between transferability and latent features
+                                        that helps the community to understand the intrinsic mechanism of adversarial attacks.
+                                        <br>
+                                        <br>
+                                        <em>Neural Networks, 2022 &nbsp;<strong><font color="#FF0000">(中科院 2区/CCF-B)</font></strong></em>
+                                        <br>
+                                        <a href="https://github.com/mesunhlf/DEFEAT">[Code]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
 							<tr>
                                 <td width="30%">
 								    <img src="../files/images/projects/attack-pr2022.jpg" alt="" width="100%" border="1"/>
@@ -87,7 +121,7 @@
                                         Moreover, CA2 applies a novel and compatible augmentation algorithm at every optimization in a loop manner for enhancing the black-box transferability further, referred to as cyclical augmentation.
                                         <br>
                                         <br>
-                                        <em>Pattern Recognition (<strong>PR</strong>)</em>, 2022
+                                        <em>Pattern Recognition (<strong>PR</strong>), 2022 &nbsp;<strong><font color="#FF0000">(中科院 2区/CCF-B)</font></strong></em>
                                         <br>
                                         <a href="https://www.sciencedirect.com/science/article/pii/S0031320322003120?dgcid=coauthor">[Paper]</a>
                                         <a href="https://github.com/mesunhlf/CA2">[Code]</a>
