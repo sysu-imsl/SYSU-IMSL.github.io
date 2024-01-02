@@ -96,6 +96,36 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
+								    <img src="./files/images/projects/pr-wenzi.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="https://github.com/zhuangwz/LAFED">LAFED: Towards Robust Ensemble Models Via Latent Feature Diversification</a></h3>
+                                    <p>
+										Wenzi Zhuang, Lifeng Huang, Chengying Gao, Ning Liu<sup>*</sup>
+										<br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        对抗样本对深度神经网络（DNNs）的安全性构成重大挑战。
+                                        为了抵御恶意攻击，对抗性训练迫使DNNs抑制泛化但非鲁棒的特征来学习另一些更为鲁棒的特征，从而提高了安全性，但导致了准确性下降。
+                                        另一方面，集成训练通过训练多个子模型来预测数据，以提高鲁棒性，并在干净数据上仍然实现了令人满意的准确性。
+                                        尽管如此，先前的集成方法由于未能增加模型多样性，仍然容易受到对抗攻击。
+                                        我们从数据的角度重新审视模型多样性，发现训练批次之间的高相似性会减少特征多样性，因此削弱了集成模型的鲁棒性。
+                                        为此，我们提出了LAFED，在优化过程中重建具有多样特征的训练集，增强了集成模型的整体鲁棒性。
+                                        对于每个子模型，LAFED将从其他子模型中提取的脆弱性视为原始数据，然后以潜在空间中的随机方式与轮次更改的权重相结合。
+                                        这导致了新特征的形成，并显著降低了子模型之间学习表示的相似性。
+                                        此外，LAFED通过利用层次平滑标签增强了集成模型内的特征多样性。
+                                        大量实验证明，与当前方法相比，LAFED显著提高了子模型之间的多样性，并增强了对抗鲁棒性。
+                                        <br>
+                                        <br>
+                                        <em>Pattern Recognition (<strong>PR</strong>), 2023 &nbsp;<strong><font color="#FF0000">(中科院 1区)</font></strong></em>
+                                        <br>
+                                        <a href="https://github.com/zhuangwz/LAFED">[代码]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="30%">
 								    <img src="./files/images/projects/tifs.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
