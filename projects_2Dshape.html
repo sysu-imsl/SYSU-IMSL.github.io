@@ -388,6 +388,29 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
+								    <img src="./files/images/projects/pg2024-song.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">Controllable Anime Image Editing via Probability of Attribute Tags</a></h3>
+                                    <p>
+                                        Zhenghao Song, Haoran Mo, and Chengying Gao*
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        此工作提出了一种基于标签概率的可控动画图像编辑框架。在该框架中，我们提出了一个概率编码网络（PEN），用于将概率编码为包含连续变化的特征，这样编码后的特征能够引导预训练扩散模型的生成过程，并可进行线性编辑。同时，我们引入了一个本地编辑模块，其可以自动识别目标区域，并限制仅在这些区域进行编辑，从而保持其他图像区域不变。与现有方法的综合比较表明，我们的框架在一次性和线性编辑模式下有更好的性能。此外，实验进一步证明了本方法的泛化能力。
+                                        <br>
+                                        <br>
+                                        <em>Pacific Graphics (<strong>PG</strong>, 2024) &nbsp;<strong><font color="#FF0000">(CCF-B)</font></strong></em>
+                                        <br>
+                                        <a href="">[论文]</a>
+                                        <a href="https://github.com/Songdp-zh/Controllable-Anime-Image-Editing">[代码]</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="30%">
 								    <img src="./files/images/projects/cvpr2023.png" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
@@ -690,8 +713,12 @@
                         <p>
                             在多媒体处理处理方面，实验室关注音乐和舞蹈等内容的生成和理解。
                             <br>
-                            在三维渲染与建模方面，实验室关注基于窄带的快速流体表面重建和织物建模与渲染等研究方向：
+                            在三维渲染与建模方面，实验室关注动态人体建模与神经渲染、基于窄带的快速流体表面重建以及织物建模与渲染等研究方向：
                             <p class="margin-small">&nbsp;</p>
+                            <strong>动态人体建模与神经渲染</strong>：基于NeRF的动态人体重建任务通常利用输入的视频序列学习人体的神经表达方式，并对人体进行隐式重建。
+                            通过结合体渲染技术，基于输入相机与人体姿势参数生成指定视角与动作的人体渲染图。
+                            尽管目前已有大量工作针对该方向展开研究，但是仍存在训练耗时长、渲染质量低、渲染速度慢等问题。
+                            <br>
                             <strong>基于窄带的快速流体表面重建</strong>：流体表面网格的重建介于流体模拟和流体渲染之间，
                             重建出来的流体网格质量与最终渲染效果有着极其密切的关系。
 							在当前有限的算力前提下，如何在尽可能保证网格质量的同时加快重建效率是一个非常具有挑战性的难题。
@@ -706,6 +733,26 @@
                         <br>
 
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                                <td width="30%">
+								    <img src="./files/images/projects/TVCG2024-lws.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">Efficient Integration of Neural Representations for  Dynamic Humans</a></h3>
+                                    <p>
+                                        Wensheng Li, Lingzhe Zeng, Chengying Gao, Ning Liu*
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        针对基于NeRF的动态人体重建方法训练效率低的问题，此工作提出学习和整合来自不同空间的动态神经人体表达方式，以实现高效地动态人体重建。具体地，本文提出将存储动态人体特征的高维特征体分解为多个特征平面，随后利用矩阵乘法显式建立这些平面之间的关联性。这种方式使得在优化来自特征平面的插值特征时，能够同步优化各个维度的关联特征，有效地整合了不同维度的观测信息并进一步加速了收敛速度。此外，利用提出的关联优化流程，整合来自不同空间的人体表达方式，并利用观察空间的细节信息逐步细化动态人体的标准表达方式。通过整合多空间人体表达方式，本文进一步促进了多帧的时间相关特征间的协同优化。实验证明了本文提出的方法仅利用大约5分钟的训练时间即可完成动态人体重建，并实现高质量的自由视角渲染。
+                                        <br>
+                                        <br>
+                                        <em>IEEE Transactions on Visualization and Computer Graphics (<strong>TVCG</strong>, 2024) &nbsp;<strong><font color="#FF0000">(中科院 1区/CCF-A)</font></strong></em>
+                                        <br>
+                                        <a href="">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
                             <tr>
                                 <td width="30%">
 								    <img src="./files/images/projects/tmm2024.png" alt="" width="100%" border="1"/>
