@@ -120,6 +120,27 @@
                         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
                             <tr>
                                 <td width="30%">
+								    <img src="./files/images/projects/TVCG-HUANG-202608.png" alt="" width="100%" border="1"/>
+                                </td>
+                                <td width="70%">
+								    <h3> <a href="">TopoColor: Topology-Aware Region Correspondence for Line Art Colorization</a></h3>
+                                    <p>
+                                        Bin Huang, Haoran Mo, and Chengying Gao<sup>*</sup>
+                                        <br>
+                                        <br>
+                                        <strong>简介：</strong>
+                                        线稿上色是专业动画制作中的关键环节，但其高度依赖人工操作，成为制约生产效率的重要瓶颈之一，同时还要求艺术家在不同帧之间保持严格的色彩一致性。尽管近年来利用特征对齐或生成式扩散模型的方法在提升上色效率方面取得了进展，但在面对遮挡和较大的帧间形变时仍容易失效。其根本困难源于二值线稿图像固有的稀疏性：由于缺乏内部纹理，局部特征描述符的判别能力受到限制，从而在颜色传播过程中产生区域对应歧义。为解决上述问题，我们提出了一种基于拓扑感知区域图（Topology-aware Segment Graph, TSG）的区域特征增强框架。通过显式建模拓扑邻接关系——这一即使在帧间发生显著几何变化时仍具有较强的稳定性的结构线索——我们利用空间上下文增强语义不同区域之间的特征可分性，从而实现更加鲁棒的区域对应。此外，为缓解长序列中的时序漂移问题以及静态参考帧相关性随时间推移而降低的问题，我们提出了一种双源时序选择与细化（Dual-source Temporal Selection and Refinement）策略。该机制自适应地融合全局参考关键帧与相邻前一帧的信息，在保持色彩一致性的同时兼顾空间连续性。在工业级基准数据集上的大量实验表明，与现有最先进的方法相比，我们的方法能够取得更优的色彩准确性和时序稳定性，尤其是在包含复杂角色运动和拓扑变化的场景中表现更为突出。
+                                        <br>
+                                        <br>
+                                        <em>IEEE Transactions on Visualization and Computer Graphics (<strong>TVCG</strong>, 2026) &nbsp;<strong><font color="#FF0000">(CCF-A)</font></strong></em>
+                                        <br>
+                                        <a href="">[论文]</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td width="30%">
 								    <img src="./files/images/projects/tog2024.gif" alt="" width="100%" border="1"/>
                                 </td>
                                 <td width="70%">
